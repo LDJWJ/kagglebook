@@ -28,3 +28,4 @@
      - (명령어) pip install keras seaborn pandas jupyter matplotlib scikit-learn
      - (명령어) pip install keras seaborn pandas jupyter matplotlib scikit-learn
  - 03 Pycharm 설치 및 환경 설정
+ - 04 github 소스 코드 다운로드
