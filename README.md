@@ -14,9 +14,15 @@
 
 ### 환경 준비(Window용)
  - 01 아나콘다 설치 
-   - 다운로드 URL : https://repo.anaconda.com/archive/
-   - 파일명 : Anaconda3-2020.02-Windows-x86_64
-   - 파일 설치 시 확인 : conda 버전 4.8.2, python 3.7.6
+   - 최신버전 다운로드 및 파일명
+     - https://www.anaconda.com/products/individual
+     - 파일명 : Anaconda3-2020.11-Windows-x86_64.exe
+     - 파일 설치 시 확인 : conda 버전 4.8.2, python 3.7.6
+     - (명령어) python --version, conda --version
+   - 이전버전 사용시
+     - 다운로드 URL : https://repo.anaconda.com/archive/
+     - 파일명 : Anaconda3-2020.02-Windows-x86_64
+     - 파일 설치 시 확인 : conda 버전 4.8.2, python 3.7.6
      - (명령어) python --version, conda --version
  - 02 가상 환경 설치
    - anaconda prompt 실행
@@ -27,7 +33,8 @@
    - tensorflow, keras 및 기본 라이브러리 설치
      - (명령어) pip  install  tensorflow
      - (명령어) pip install keras seaborn pandas jupyter matplotlib scikit-learn
-     - (명령어) pip install keras seaborn pandas jupyter matplotlib scikit-learn
+     - (명령어) pip install xgboost
+     - (명령어) pip install lightgbm
  - 03 Pycharm 설치 및 환경 설정
    - URL : https://www.jetbrains.com/pycharm/download/#section=windows
  - 04 github 소스 코드 다운로드
