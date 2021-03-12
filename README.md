@@ -39,7 +39,8 @@
  - 03 Pycharm 설치 및 환경 설정
    - URL : https://www.jetbrains.com/pycharm/download/#section=windows
  - 04 github 소스 코드 다운로드
-
+ 
+ - [설치 영상 추가 예정] [아나콘다 설치](Link1) [가상환경설치](Link2) [Pycharm 설치 및 소스코드 불러오기](Link3)
 
 ### 환경준비(MAC용)
  - 추가 예정
