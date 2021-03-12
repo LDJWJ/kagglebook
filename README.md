@@ -14,7 +14,7 @@
  - 일부 라이브러리 버전이 맞지 않을 경우, 소스코드 일부가 실행이 되지 않을 수 있습니다. 
 
 ### 환경 준비(Window용)
- - 01 아나콘다 설치 
+ - 01 아나콘다 설치 - [PDF]( ) [HTML]( )
    - 최신버전 다운로드 및 파일명
      - https://www.anaconda.com/products/individual
      - 파일명 : Anaconda3-2020.11-Windows-x86_64.exe
