@@ -12,7 +12,7 @@
  - lightgbm 버전 :  3.1.1
  - hyperopt 버전 :  0.2.5
 
-### 환경 준비
+### 환경 준비(Window용)
  - 01 아나콘다 설치 
    - 다운로드 URL : https://repo.anaconda.com/archive/
    - 파일명 : Anaconda3-2020.02-Windows-x86_64
@@ -31,3 +31,11 @@
  - 03 Pycharm 설치 및 환경 설정
    - URL : https://www.jetbrains.com/pycharm/download/#section=windows
  - 04 github 소스 코드 다운로드
+
+
+### 환경준비(MAC용)
+ - 추가 예정
+
+
+### 환경준비(Linux용)
+ - 추가 예정
