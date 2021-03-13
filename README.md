@@ -25,7 +25,7 @@
      - 파일명 : Anaconda3-2020.02-Windows-x86_64
      - 파일 설치 시 확인 : conda 버전 4.8.2, python 3.7.6
      - (명령어) python --version, conda --version
- - 02 가상 환경 설치
+ - 02 가상 환경 설치(가상환경을 사용하지 않을 시, 2번은 건너뛰어도 됨.)
    - anaconda prompt 실행
    - 가상환경 설치
      - (명령어) conda create  --name  tf2x python=3.8.5
@@ -39,7 +39,14 @@
  - 03 Pycharm 설치 및 환경 설정
    - URL : https://www.jetbrains.com/pycharm/download/#section=windows
  - 04 github 소스 코드 다운로드
- 
+   - https://github.com/LDJWJ/kagglebook 로 이동
+   - CODE 버튼 선택 - Download Zip 선택 후, 소스 코드 다운로드
+   - 내가 원하는 위치로 zip 파일을 이동 후, 압축을 파일을 풀어준다.
+ - 05 다운로드 된 소스코드를 pycharm에서 폴더를 선택 후, 불러오기
+   - 메뉴 [File]-[Open...]선택 후, 소스코드 폴더를 선택 후, OK선택
+   - 각각의 상황에 따라 폴더를 열어준다. 여기서는 Attach로 여러 폴더를 함께 사용.
+   - 파일을 하나 선택해서 진행해 본다.
+
  - [설치 영상 추가 예정] [아나콘다 설치](Link1) [가상환경설치](Link2) [Pycharm 설치 및 소스코드 불러오기](Link3)
 
 ### 환경준비(MAC용)
