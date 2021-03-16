@@ -61,7 +61,30 @@
  - bhtsne 모듈 설치가 안되는 이슈(2021.03.13) - 버전 불일치로 판단됨.
 
 
-### 책에서의 관련 링크
+## 소스 코드(Kaggle Notebook(클라우드) 환경 실행 코드)
+ - [캐글의 노트북 환경에서 시작하기] [유튜브-추가계획]() [네이버tv-추가계획]() 
+ - ch01 - 타이타닉 대회
+  - 01
+  - 02
+  - 03
+  -
+  
+ - ch02 - *** 대회
+ 
+ - ch03 - *** 대회
+
+ - ch04 - *** 대회
+
+ - ch05 - *** 대회
+
+ - ch06 - *** 대회
+
+ - ch07 - *** 대회
+ 
+
+
+
+## 책에서의 관련 링크
 
 #### ch01
   - 대회의 상위 솔루션 정리 [sudalairajkumar](https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions)
