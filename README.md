@@ -64,7 +64,9 @@
 ### 책에서의 관련 링크
 
 #### ch01
-  - 과거의 솔루션 정리 [sudalairajkumar](https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions)
+  - 대회의 상위 솔루션 정리 [sudalairajkumar](https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions)
+  - 타이타닉 대회의 솔루션 정리 [pliptor](https://www.kaggle.com/pliptor/how-am-i-doing-with-my-score)
+
 #### ch02
 
 #### ch03
