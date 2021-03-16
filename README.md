@@ -59,3 +59,20 @@
 
 ### 소스 코드 실행 이슈
  - bhtsne 모듈 설치가 안되는 이슈(2021.03.13) - 버전 불일치로 판단됨.
+
+
+### 책에서의 관련 링크
+
+#### ch01
+  - 과거의 솔루션 정리 [sudalairajkumar](https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions)
+#### ch02
+
+#### ch03
+
+#### ch04
+
+#### ch05
+
+#### ch06
+
+#### ch07
