@@ -123,6 +123,10 @@
     - 내용 : 각 신청자가 대출금을 상환 할 수있는 능력을 예측
     - 평가지표 : AUC
 
+  - Two Sigma Connect: Rental Listing Inquiries [대회로](https://www.kaggle.com/c/two-sigma-connect-rental-listing-inquiries)
+    - 내용 : RentHop의 새 임대 목록에 대한 관심은 얼마나됩니까?
+    - 평가지표 : multi-class logloss
+   
 ### 시계열 데이터를 다루는 대회
  - Recruit Restaurant Visitor forecasting 대회  [대회로](https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting)
    - 내용 : 각 음식점의 일별 손님 수를 알려주고 미래의 손님 수를 예측
