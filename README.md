@@ -36,7 +36,8 @@
      - (명령어) pip install keras seaborn pandas jupyter matplotlib scikit-learn
      - (명령어) pip install xgboost
      - (명령어) pip install lightgbm
-   - * 추후 버전 변경으로 인한 일부 코드가 돌아가지 않을 때, 라이브러리 버전이 달라 발생할 경우 아래의 명령으로 버전을 지정하여 설치가 가능합니다.(pip 사용)
+     - 
+   - (알아두기) 추후 버전 변경으로 인한 일부 코드가 돌아가지 않을 때, 라이브러리 버전이 달라 발생할 경우 아래의 명령으로 버전을 지정하여 설치가 가능합니다.(pip 사용)
      - (설치된것 삭제)  pip uninstall xgboost
      - (버전지정 설치) pip install xgboost=1.3.3
  
