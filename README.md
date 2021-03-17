@@ -95,14 +95,35 @@
 
 
 
-## 책에서의 관련 링크
+## 책에서의 관련 캐글 대회 및 정보 링크
 
 #### ch01
   - 대회의 상위 솔루션 정리 [by sudalairajkumar](https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions)
   - 타이타닉 대회의 솔루션 정리 [by pliptor](https://www.kaggle.com/pliptor/how-am-i-doing-with-my-score)
 
 #### ch02
+  - Instacart Market Basket Analysis [대회로](https://www.kaggle.com/c/human-protein-atlas-image-classification/)
+    - 내용 : Instacart 소비자는 어떤 제품을 다시 구매할까?
+    - 평가지표 : 평가지표(mean F1 score)
+    
+  - Santander Product Recommendation [대회로](https://www.kaggle.com/c/santander-product-recommendation)
+    - 내용 :Santander Bank  는 개인화 된 제품 추천 
+    - 평가지표 : MAP@7 (Mean Average Precision @ 7)
 
+  - Human Protein Atlas Image Classification [대회로](https://www.kaggle.com/c/hpa-single-cell-image-classification)
+    - 내용 : 현미경 이미지에서 개별 인간 세포 차이 찾기 (다중 레이블 분류 문제)
+    - 평가지표 : Macro F-Score
+   
+  - 시계열 데이터를 다루는 대회
+    - Recruit Restaurant Visitor forecasting 대회  [대회로](https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting)
+      - 내용 : 각 음식점의 일별 손님 수를 알려주고 미래의 손님 수를 예측
+    - Santander Product Recommendation 대회 [대회로](https://www.kaggle.com/c/santander-product-recommendation)
+      - 내용 : 각 고객의 금융상품 구매 이력을 월 단위로 제공하고 가장 최근 월의 구매상품을 예측
+    - Two Sigma financial modeling Challenge 대회 [대회로](https://www.kaggle.com/c/two-sigma-financial-modeling)
+      - 내용 : 금융 시장의 특징이 익명화된 시계열 데이터를 주고 지정된 특징의 미래 값을 예측
+    - Coupon Purchase Prediction 대회 [대회로](https://www.kaggle.com/c/coupon-purchase-prediction)
+      - 내용 : 공동구매형 쿠폰 사이트의 사용자와 과거에 판매된 쿠폰 및 구매 이력 등의 정보를 주고 미래에 각 사용자가 어떤 쿠폰을 구매할지 예측
+     
 #### ch03
 
 #### ch04
