@@ -102,6 +102,7 @@
   - 타이타닉 대회의 솔루션 정리 [by pliptor](https://www.kaggle.com/pliptor/how-am-i-doing-with-my-score)
 
 #### ch02
+ ### 평가지표로 보는 캐글 대회
   - Instacart Market Basket Analysis [대회로](https://www.kaggle.com/c/human-protein-atlas-image-classification/)
     - 내용 : Instacart 소비자는 어떤 제품을 다시 구매할까?
     - 평가지표 : 평가지표(mean F1 score)
@@ -113,16 +114,24 @@
   - Human Protein Atlas Image Classification [대회로](https://www.kaggle.com/c/hpa-single-cell-image-classification)
     - 내용 : 현미경 이미지에서 개별 인간 세포 차이 찾기 (다중 레이블 분류 문제)
     - 평가지표 : Macro F-Score
-   
-  - 시계열 데이터를 다루는 대회
-    - Recruit Restaurant Visitor forecasting 대회  [대회로](https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting)
-      - 내용 : 각 음식점의 일별 손님 수를 알려주고 미래의 손님 수를 예측
-    - Santander Product Recommendation 대회 [대회로](https://www.kaggle.com/c/santander-product-recommendation)
-      - 내용 : 각 고객의 금융상품 구매 이력을 월 단위로 제공하고 가장 최근 월의 구매상품을 예측
-    - Two Sigma financial modeling Challenge 대회 [대회로](https://www.kaggle.com/c/two-sigma-financial-modeling)
-      - 내용 : 금융 시장의 특징이 익명화된 시계열 데이터를 주고 지정된 특징의 미래 값을 예측
-    - Coupon Purchase Prediction 대회 [대회로](https://www.kaggle.com/c/coupon-purchase-prediction)
-      - 내용 : 공동구매형 쿠폰 사이트의 사용자와 과거에 판매된 쿠폰 및 구매 이력 등의 정보를 주고 미래에 각 사용자가 어떤 쿠폰을 구매할지 예측
+
+  - Quora Question Pairs 대회 [대회로](https://www.kaggle.com/c/quora-question-pairs)
+    - 내용 : 같은 의도를 가진 질문 쌍을 식별하기
+    - 평가지표 : 로그 손실
+
+  - Home Credit Default Risk 대회 [대회로](https://www.kaggle.com/c/home-credit-default-risk)
+    - 내용 : 각 신청자가 대출금을 상환 할 수있는 능력을 예측
+    - 평가지표 : AUC
+
+### 시계열 데이터를 다루는 대회
+ - Recruit Restaurant Visitor forecasting 대회  [대회로](https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting)
+   - 내용 : 각 음식점의 일별 손님 수를 알려주고 미래의 손님 수를 예측
+ - Santander Product Recommendation 대회 [대회로](https://www.kaggle.com/c/santander-product-recommendation)
+   - 내용 : 각 고객의 금융상품 구매 이력을 월 단위로 제공하고 가장 최근 월의 구매상품을 예측
+ - Two Sigma financial modeling Challenge 대회 [대회로](https://www.kaggle.com/c/two-sigma-financial-modeling)
+   - 내용 : 금융 시장의 특징이 익명화된 시계열 데이터를 주고 지정된 특징의 미래 값을 예측
+ - Coupon Purchase Prediction 대회 [대회로](https://www.kaggle.com/c/coupon-purchase-prediction)
+   - 내용 : 공동구매형 쿠폰 사이트의 사용자와 과거에 판매된 쿠폰 및 구매 이력 등의 정보를 주고 미래에 각 사용자가 어떤 쿠폰을 구매할지 예측
   
   - 기타 대회
     - 자연어 처리 대회 - Quora Question Pairs 대회
