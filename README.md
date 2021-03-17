@@ -123,7 +123,11 @@
       - 내용 : 금융 시장의 특징이 익명화된 시계열 데이터를 주고 지정된 특징의 미래 값을 예측
     - Coupon Purchase Prediction 대회 [대회로](https://www.kaggle.com/c/coupon-purchase-prediction)
       - 내용 : 공동구매형 쿠폰 사이트의 사용자와 과거에 판매된 쿠폰 및 구매 이력 등의 정보를 주고 미래에 각 사용자가 어떤 쿠폰을 구매할지 예측
-     
+  
+  - 기타 대회
+    - 자연어 처리 대회 - Quora Question Pairs 대회
+    - 정형 데이터와 광고 이미지 함께 분석 - Avito Demand Prediction Challenge 대회
+   
 #### ch03
 
 #### ch04
