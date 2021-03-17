@@ -17,19 +17,17 @@
  - 01 아나콘다 설치 - [PDF](https://ldjwj.github.io/kagglebook/pdf_html/01_anaconda_install.pdf) [HTML](https://ldjwj.github.io/kagglebook/pdf_html/1_1_anaconda_install_202103.html)
    - 최신버전 다운로드 및 파일명
      - https://www.anaconda.com/products/individual
-     - 파일명 : Anaconda3-2020.11-Windows-x86_64.exe
-     - 파일 설치 시 확인 : conda 버전 4.8.2, python 3.7.6
+     - 파일명 : Anaconda3-2020.11-Windows-x86_64.exe, 버전 확인 : conda 버전 4.8.2, python 3.7.6
      - (명령어) python --version, conda --version
-   - 이전버전 사용시
+   - 이전버전 사용시 아래 URL에서 다운로드 가능
      - 다운로드 URL : https://repo.anaconda.com/archive/
-     - 파일명 : Anaconda3-2020.02-Windows-x86_64
-     - 파일 설치 시 확인 : conda 버전 4.8.2, python 3.7.6
+       - 파일명 : Anaconda3-2020.02-Windows-x86_64. 버전확인 : conda 버전 4.8.2, python 3.7.6
      - (명령어) python --version, conda --version
+ 
  - 02 가상 환경 설치(가상환경을 사용하지 않을 시, 2번은 건너뛰어도 됨.)
    - anaconda prompt 실행
-   - 가상환경 설치
+   - 가상환경 설치 및 활성화 
      - (명령어) conda create  --name  tf2x python=3.8.5
-   - 가상환경 활성화
      - (명령어) conda activate tf2x   # 가상 환경 활성화
    - tensorflow, keras 및 기본 라이브러리 설치
      - (명령어) pip  install  tensorflow
