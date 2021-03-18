@@ -151,7 +151,7 @@
    
  ### 상위 솔루션
   - Allstate Claims Severity Competition, 2nd Place Winner’s Interview: Alexey Noskov [이동](https://medium.com/kaggle-blog/allstate-claims-severity-competition-2nd-place-winners-interview-alexey-noskov-f4e4ce18fcfc)
-
+  - Home Credit Default Risk - 2nd place solution [이동](https://speakerdeck.com/hoxomaxwell/home-credit-default-risk-2nd-place-solutions?slide=11)
 
 #### ch03
 
