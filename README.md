@@ -131,6 +131,10 @@
     - 내용 : RentHop의 새 임대 목록에 대한 관심은 얼마나됩니까?
     - 평가지표 : multi-class logloss
    
+  - Bosch Production Line Performance [대회로](https://www.kaggle.com/c/bosch-production-line-performance)
+    - 내용 : 제조 프로세스 개선을 위한 제조 실패 감소
+    - 평가지표 : MCC
+    - 
 ### 시계열 데이터를 다루는 대회
  - Recruit Restaurant Visitor forecasting 대회  [대회로](https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting)
    - 내용 : 각 음식점의 일별 손님 수를 알려주고 미래의 손님 수를 예측
@@ -145,6 +149,10 @@
     - 자연어 처리 대회 - Quora Question Pairs 대회
     - 정형 데이터와 광고 이미지 함께 분석 - Avito Demand Prediction Challenge 대회
    
+ ### 상위 솔루션
+  - Allstate Claims Severity Competition, 2nd Place Winner’s Interview: Alexey Noskov [이동](https://medium.com/kaggle-blog/allstate-claims-severity-competition-2nd-place-winners-interview-alexey-noskov-f4e4ce18fcfc)
+
+
 #### ch03
 
 #### ch04
