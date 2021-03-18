@@ -103,6 +103,10 @@
 
 #### ch02
  ### 평가지표로 보는 캐글 대회
+   - Instacart Market Basket Analysis [대회로](https://www.kaggle.com/c/allstate-claims-severity)
+    - 내용 : 보험 청구는 얼마나 심각한지에 대한 정도의 예측
+    - 평가지표 : 평가지표(MAE)
+ 
   - Instacart Market Basket Analysis [대회로](https://www.kaggle.com/c/human-protein-atlas-image-classification/)
     - 내용 : Instacart 소비자는 어떤 제품을 다시 구매할까?
     - 평가지표 : 평가지표(mean F1 score)
