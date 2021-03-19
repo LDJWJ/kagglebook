@@ -78,11 +78,11 @@
 
  ### ch02
    * 파이썬 소스 코드보기
-    * ch02-01-metrics [.py](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-01-metrics.py) [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-01-metrics.html)
-    * ch02-02-custom-usage [.py](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-02-custom-usage.py) [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-02-custom-usage.html)
-    * ch02-03-optimize [.py](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-03-optimize.py) [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-03-optimize.html)
-    * ch02-04-optimize-cv [.py](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-04-optimize-cv.py) [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-04-optimize-cv.html)
-    * ch02-05-custom-function [.py](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-05-custom-function.py) [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-05-custom-function.html)
+     * ch02-01-metrics [.py](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-01-metrics.py) [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-01-metrics.html)
+     * ch02-02-custom-usage [.py](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-02-custom-usage.py) [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-02-custom-usage.html)
+     * ch02-03-optimize [.py](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-03-optimize.py) [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-03-optimize.html)
+     * ch02-04-optimize-cv [.py](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-04-optimize-cv.py) [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-04-optimize-cv.html)
+     * ch02-05-custom-function [.py](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-05-custom-function.py) [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-05-custom-function.html)
  
  
  - ch03 - *** 대회
