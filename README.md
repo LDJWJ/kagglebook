@@ -72,23 +72,18 @@
  - bhtsne 모듈 설치가 안되는 이슈(2021.03.13) - 버전 불일치로 판단됨.
 
 
-## 소스 코드(Kaggle Notebook(클라우드) 환경 실행 코드)
+## 소스 코드 보기
  - [캐글의 노트북 환경에서 시작하기] [유튜브-추가계획]() [네이버tv-추가계획]() 
- - ch01 - 타이타닉 대회
-  - 01
-  - 02
-  - 03
-  -
-  
- - ch02
-  - 주피터 노트북 실행 소스 코드
+ ### ch01 - 타이타닉 대회
+
+ ### ch02
+   - .py 및 주피터 노트북 실행 소스 코드보기
     - [ch02-01-metrics] [.py](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-01-metrics.py) [.ipynb](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-01-metrics.html)
     - [ch02-02-custom-usage] [.py](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-02-custom-usage.py) [.ipynb](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-02-custom-usage.html)
     - [ch02-03-optimize] [.py](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-03-optimize.py) [.ipynb](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-03-optimize.html)
     - [ch02-04-optimize-cv] [.py](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-04-optimize-cv.py) [.ipynb](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-04-optimize-cv.html)
     - [ch02-05-custom-function] [.py](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-05-custom-function.py) [.ipynb](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-05-custom-function.html)
  
-  
  
  - ch03 - *** 대회
 
