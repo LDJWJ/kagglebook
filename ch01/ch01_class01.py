@@ -38,6 +38,9 @@ for c in ['Sex', 'Embarked']:
     train_x[c] = le.transform(train_x[c].fillna('NA'))
     test_x[c] = le.transform(test_x[c].fillna('NA'))
 
+print(train_x)
+
+print("모델 만들기")
 # -----------------------------------
 # 모델 만들기
 # -----------------------------------
@@ -49,14 +52,16 @@ model.fit(train_x, train_y)
 
 # 테스트 데이터의 예측 결과를 확률로 출력
 pred = model.predict_proba(test_x)[:, 1]
+print(pred[0:10])
 
 # 테스트 데이터의 예측 결과를 두개의 값(1,0)으로 변환
 pred_label = np.where(pred > 0.5, 1, 0)
+print(pred_label[0:10])
 
 # 제출용 파일 작성
 submission = pd.DataFrame({'PassengerId': test['PassengerId'], 'Survived': pred_label})
 submission.to_csv('submission_first.csv', index=False)
-# score ：0.7799（여기의 실행 결과가 사용자마다 다를 수 있을 가능성이 있습니다.）
+# score ：0.76555（여기의 실행 결과가 사용자마다 다를 수 있을 가능성이 있습니다.）
 
 # -----------------------------------
 # 모델 검증
@@ -67,6 +72,7 @@ from sklearn.model_selection import KFold
 # 각 fold의 평가 점수를 저장을 위한 빈 리스트 선언
 scores_accuracy = []
 scores_logloss = []
+
 
 # 교차 검증(Cross-validation)을 수행
 # 01 학습 데이터를 4개로 분할
@@ -92,6 +98,9 @@ for tr_idx, va_idx in kf.split(train_x):
     # 각 fold의 점수를 저장
     scores_logloss.append(logloss)
     scores_accuracy.append(accuracy)
+
+print(scores_logloss)
+print(scores_accuracy)
 
 #각 fold의 점수 평균을 출력.
 logloss = np.mean(scores_logloss)
@@ -147,12 +156,15 @@ for max_depth, min_child_weight in param_combinations:
     params.append((max_depth, min_child_weight))
     scores.append(score_mean)
 
+# 전체 파라미터와 점수 확인
+print(params)
+print(scores)
+
 # 가장 점수가 좋은 것을 베스트 파라미터로 지정
 best_idx = np.argsort(scores)[0]
 best_param = params[best_idx]
 print(f'max_depth: {best_param[0]}, min_child_weight: {best_param[1]}')
 # max_depth=7, min_child_weight=2.0의 점수가 가장 좋음.
-
 
 # -----------------------------------
 # 로지스틱 회귀용 특징 작성
@@ -193,6 +205,9 @@ test_x2 = test_x2.drop(cat_cols, axis=1)
 train_x2 = pd.concat([train_x2, ohe_train_x2], axis=1)
 test_x2 = pd.concat([test_x2, ohe_test_x2], axis=1)
 
+# 원핫 인코딩된 변수 확인
+print(train_x2)
+
 # 수치변수의 결측치를 학습 데이터의 평균으로 채우기
 num_cols = ['Age', 'SibSp', 'Parch', 'Fare']
 for col in num_cols:
@@ -225,5 +240,5 @@ pred_label = np.where(pred > 0.5, 1, 0)
 
 # 제출용 파일 작성
 submission = pd.DataFrame({'PassengerId': test['PassengerId'], 'Survived': pred_label})
-submission.to_csv('submission_first_ensemble.csv', index=False)
-# score ：0.7799（여기의 실행 결과가 사용자마다 다를 수 있을 가능성이 있습니다.）
+submission.to_csv('submission_second_ensemble.csv', index=False)
+# score ：0.76794（여기의 실행 결과가 사용자마다 다를 수 있을 가능성이 있습니다.）
