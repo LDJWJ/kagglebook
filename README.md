@@ -162,7 +162,7 @@
   - [Instacart Market Basket Analysis 2nd place solution](https://www.slideshare.net/kazukionodera7/kaggle-meetup-3-instacart-2nd-placesolution) 
     - 최근 주문 여부를 보여주는 배열을 주고, 가장 최근 기록부터 중요도를 매개 수치로 변환하는 기술 활용
     - 아이템 특별 상품에 주목 - 유기농, 글루텐, 아시아의 아이템에 주목
-
+  - 와이드 포맷 자료 [Link1](https://www.datacamp.com/community/tutorials/long-wide-data-R) [Link2](https://seananderson.ca/2013/10/19/reshape/)
 
 
 #### ch04
