@@ -163,8 +163,15 @@
     - 최근 주문 여부를 보여주는 배열을 주고, 가장 최근 기록부터 중요도를 매개 수치로 변환하는 기술 활용
     - 아이템 특별 상품에 주목 - 유기농, 글루텐, 아시아의 아이템에 주목
   - 와이드 포맷 자료 [Link1](https://www.datacamp.com/community/tutorials/long-wide-data-R) [Link2](https://seananderson.ca/2013/10/19/reshape/)
-
-
+  - Porto Seguro’s Safe Driver Prediction 대회의 1위 솔루션 [Link](https://www.kaggle.com/c/porto-seguro-safe-driver-prediction/discussion/44629)
+    - 잡음 제거 오토 인코더 사용 
+  - 실제로 캐글 Allstate Claims Severity 대회의 2위 솔루션 [Link](https://medium.com/kaggle-blog/allstate-claims-severity-competition-2nd-place-winners-interviewalexey-noskov-f4e4ce18fcfc)
+    - 클러스터 중심으로부터 거리를 특징으로 사용
+  - 사이킷런의 cluster 모듈 [Link](https://scikit-learn.org/stable/modules/clustering.html)
+  - 여러 변수를 조합한 지수 사용 - Recruit Restaurant Visitor Forecasting 대회 20th Solution [Link](https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting/discussion/49328)
+  - Avito Demand Prediction Challenge 대회 9위 솔루션 (https://www.slideshare.net/JinZhan/kaggle-avito-demand-prediction-challenge-9th-place-solution-124500050)
+     - 중요한 변수인 가격에 대해 상품명, 상품 분류(카테고리), 사용자나 지역 등 다양한 관점에서 평균과의 차와 비율 확인
+     
 #### ch04
 
 #### ch05
