@@ -159,7 +159,7 @@
   - Home Credit Default Risk - 2nd place solution [이동](https://speakerdeck.com/hoxomaxwell/home-credit-default-risk-2nd-place-solutions?slide=11)
 
 #### ch03
-  - [Instacart Market Basket Analysis 2nd place solution](https://www.slideshare.net/kazukionodera7/kaggle-meetup-3-instacart-2nd-placesolution)
+  - [Instacart Market Basket Analysis 2nd place solution](https://www.slideshare.net/kazukionodera7/kaggle-meetup-3-instacart-2nd-placesolution) - 최근 주문 여부를 보여주는 배열을 주고, 가장 최근 기록부터 중요도를 매개 수치로 변환하는 기술 사용
 
 
 
