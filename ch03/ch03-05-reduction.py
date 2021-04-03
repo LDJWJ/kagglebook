@@ -102,7 +102,6 @@ test_x = model.transform(test_x)
 # -----------------------------------
 # MinMax스케일링을 수행한 데이터를 이용
 # 카운트 행렬은 아니지만, 음수가 아닌 값이면 계산 가능
-# カウント行列ではないが、非負の値であれば計算は可能
 train_x, test_x = load_minmax_scaled_data()
 # -----------------------------------
 from sklearn.decomposition import LatentDirichletAllocation

@@ -15,9 +15,7 @@ test_x = pd.read_csv('../input/sample-data/test_preprocessed.csv')
 # xgboost에 의한 학습·예측을 하는 클래스
 import xgboost as xgb
 
-
 class Model:
-
     def __init__(self, params=None):
         self.model = None
         if params is None:
@@ -79,6 +77,7 @@ from sklearn.model_selection import KFold
 # KFold 클래스를 이용하여 홀드아웃 방법으로 분할
 kf = KFold(n_splits=4, shuffle=True, random_state=71)
 tr_idx, va_idx = list(kf.split(train_x))[0]
+print(tr_idx, va_idx)
 tr_x, va_x = train_x.iloc[tr_idx], train_x.iloc[va_idx]
 tr_y, va_y = train_y.iloc[tr_idx], train_y.iloc[va_idx]
 
