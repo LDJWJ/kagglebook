@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/kagglebook.iml" filepath="$PROJECT_DIR$/.idea/kagglebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../kagglebook_jp/.idea/kagglebook_jp.iml" filepath="$PROJECT_DIR$/../kagglebook_jp/.idea/kagglebook_jp.iml" />
     </modules>
   </component>
 </project>

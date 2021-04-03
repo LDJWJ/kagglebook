@@ -12,7 +12,7 @@ train_x = train.drop(['target'], axis=1)
 train_y = train['target']
 test_x = pd.read_csv('../input/sample-data/test_preprocessed.csv')
 
-# 時系列データであり、時間に沿って変数periodを設定したとする
+# 시계열 데이터이며, 시간에 따라 변수 period를 설정했다고 함
 train_x['period'] = np.arange(0, len(train_x)) // (len(train_x) // 4)
 train_x['period'] = np.clip(train_x['period'], 0, 3)
 test_x['period'] = 4
