@@ -44,7 +44,8 @@ for c in ['Sex', 'Embarked']:
 from xgboost import XGBClassifier
 
 # 모델 생성 및 학습 데이터를 이용한 모델 학습
-model = XGBClassifier(n_estimators=20, random_state=71)
+# model = XGBClassifier(n_estimators=20, random_state=71)
+model = XGBClassifier(n_estimators=20, random_state=71, use_label_encoder=False)
 model.fit(train_x, train_y)
 
 # 테스트 데이터의 예측 결과를 확률로 출력
@@ -79,7 +80,8 @@ for tr_idx, va_idx in kf.split(train_x):
     tr_y, va_y = train_y.iloc[tr_idx], train_y.iloc[va_idx]
 
     # 모델 학습을 수행
-    model = XGBClassifier(n_estimators=20, random_state=71)
+    # model = XGBClassifier(n_estimators=20, random_state=71)
+    model = XGBClassifier(n_estimators=20, random_state=71, use_label_encoder=False)
     model.fit(tr_x, tr_y)
 
     # 평가용 데이터의 예측 결과를 확률로 출력
@@ -131,7 +133,7 @@ for max_depth, min_child_weight in param_combinations:
         tr_y, va_y = train_y.iloc[tr_idx], train_y.iloc[va_idx]
 
         # 모델의 학습을 수행
-        model = XGBClassifier(n_estimators=20, random_state=71,
+        model = XGBClassifier(n_estimators=20, random_state=71, use_label_encoder=False,
                               max_depth=max_depth, min_child_weight=min_child_weight)
         model.fit(tr_x, tr_y)
 
@@ -209,7 +211,7 @@ test_x2['Fare'] = np.log1p(test_x2['Fare'])
 from sklearn.linear_model import LogisticRegression
 
 # xgboost 모델
-model_xgb = XGBClassifier(n_estimators=20, random_state=71)
+model_xgb = XGBClassifier(n_estimators=20, random_state=71, use_label_encoder=False)
 model_xgb.fit(train_x, train_y)
 pred_xgb = model_xgb.predict_proba(test_x)[:, 1]
 

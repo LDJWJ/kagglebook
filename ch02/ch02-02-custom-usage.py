@@ -35,15 +35,15 @@ dvalid = xgb.DMatrix(va_x, label=va_y)
 
 # 사용자 정의 목적함수(이 경우는 logloss이며, xgboost의 ‘binary:logistic’과 동일)
 def logregobj(preds, dtrain):
-    labels = dtrain.get_label()  # 真の値のラベルを取得
-    preds = 1.0 / (1.0 + np.exp(-preds))  # シグモイド関数
-    grad = preds - labels  # 勾配
-    hess = preds * (1.0 - preds)  # 二階微分値
+    labels = dtrain.get_label()           # 실젯값 레이블 획득
+    preds = 1.0 / (1.0 + np.exp(-preds))  # 시그모이드 함수
+    grad = preds - labels                 # 그래디언트
+    hess = preds * (1.0 - preds)          # 시그모이드 함수 미분
     return grad, hess
 
 # 사용자 정의 평가지표(이 경우 오류율)
 def evalerror(preds, dtrain):
-    labels = dtrain.get_label()  # 真の値のラベルを取得
+    labels = dtrain.get_label()           # 실젯값 레이블 획득
     return 'custom-error', float(sum(labels != (preds > 0.0))) / len(labels)
 
 # 하이퍼 파라미터의 설정

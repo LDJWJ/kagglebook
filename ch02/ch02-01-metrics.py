@@ -128,6 +128,7 @@ print(mean_f1, macro_f1, micro_f1)
 mean_f1 = f1_score(y_true, y_pred, average='samples')
 macro_f1 = f1_score(y_true, y_pred, average='macro')
 micro_f1 = f1_score(y_true, y_pred, average='micro')
+print(mean_f1, macro_f1, micro_f1)
 
 # -----------------------------------
 # 클래스간 순서관계가 있는 다중 클래스 분류
@@ -162,10 +163,11 @@ c_matrix = confusion_matrix(y_true, y_pred, labels=[1, 2, 3, 4, 5])
 # quadratic weighted kappa를 계산
 kappa = quadratic_weighted_kappa(c_matrix)
 print(kappa)
-# 0.6153
+# 0.6154
 
 # scikit-learn의 메소드로도 계산 가능
 kappa = cohen_kappa_score(y_true, y_pred, weights='quadratic')
+print(kappa)
 
 # -----------------------------------
 # Recommendation(추천)

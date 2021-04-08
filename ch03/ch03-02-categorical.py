@@ -33,7 +33,7 @@ cat_cols = ['sex', 'product', 'medical_info_b2', 'medical_info_b3']
 train_x, test_x = load_data()
 # -----------------------------------
 
-# 학습 데이터와 테스트 데이터를 결합하여 get_dummies를 통한 one-hot encoding을 수행
+# 학습 데이터와 테스트 데이터를 결합하여 get_dummies를 통한 원-핫 인코딩을 수행
 all_x = pd.concat([train_x, test_x])
 all_x = pd.get_dummies(all_x, columns=cat_cols)
 
@@ -90,7 +90,6 @@ from sklearn.feature_extraction import FeatureHasher
 
 # 범주형 변수를 반복적으로 특징 해싱 처리
 for c in cat_cols:
-
     # FeatureHasher의 사용법은 다른 encoder와 조금 달라짐
     fh = FeatureHasher(n_features=5, input_type='string')
 
