@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f45d8882-bf95-4ccf-ac31-fa8825dac240" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/ch01-01-titanic.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch01/ch01-01-titanic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/ch02-01-metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch02/ch02-01-metrics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/ch02-02-custom-usage.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch02/ch02-02-custom-usage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/ch02-05-custom-function.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch02/ch02-05-custom-function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch03/ch03-02-categorical.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch03/ch03-02-categorical.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch04/ch04-01-introduction.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch04/ch04-01-introduction.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +42,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Python.ch01-01-titanic">
+  <component name="RunManager" selected="Python.ch04-01-introduction">
     <configuration name="ch01-01-titanic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kagglebook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch07-02-blending" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ch04-01-introduction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kagglebook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,11 +114,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07/ch07-02-blending.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch04/ch04-01-introduction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ch04-01-introduction" />
         <item itemvalue="Python.ch01-01-titanic" />
         <item itemvalue="Python.ch02-04-optimize-cv" />
         <item itemvalue="Python.ch02-01-metrics" />
         <item itemvalue="Python.ch07-03-adversarial" />
-        <item itemvalue="Python.ch07-02-blending" />
       </list>
     </recent_temporary>
   </component>

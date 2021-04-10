@@ -26,7 +26,8 @@ class Model:
             self.params = params
 
     def fit(self, tr_x, tr_y):
-        params = {'objective': 'binary:logistic', 'silent': 1, 'random_state': 71}
+        # params = {'objective': 'binary:logistic', 'silent': 1, 'random_state': 71}
+        params = {'objective': 'binary:logistic', 'verbosity': 0, 'random_state': 71}
         params.update(self.params)
         num_round = 10
         dtrain = xgb.DMatrix(tr_x, label=tr_y)
