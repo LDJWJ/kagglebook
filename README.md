@@ -13,7 +13,7 @@
  - hyperopt 버전 :  0.2.5
  - 일부 라이브러리 버전이 맞지 않을 경우, 소스코드 일부가 실행이 되지 않을 수 있습니다. 
 
-### 환경 준비(Window용)
+### 환경 준비(Window용) [Link](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env.html)
  - 01 아나콘다 설치 - [PDF](https://ldjwj.github.io/kagglebook/pdf_html/01_anaconda_install.pdf) [HTML](https://ldjwj.github.io/kagglebook/pdf_html/1_1_anaconda_install_202103.html)
    - 최신버전 다운로드 및 파일명
      - https://www.anaconda.com/products/individual
