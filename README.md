@@ -41,15 +41,41 @@
 |ch02-05-custom-function|[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-05-custom-function.py)| [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-05-custom-function.html)|
 
  - ch03 - *** 대회
+|------|---|---|
+|ch03-01-numerical.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-01-numerical.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch03/___)|
+|ch03-02-categorical.py    |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-02-categorical.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch03/___)|
+|ch03-03-multi_tables.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-03-multi_tables.py) |[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch03/___)|
+|ch03-04-time_series.py    |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-04-time_series.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch03/___)|
+|ch03-05-reduction.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-05-reduction.py)| [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch03/___)|
+|ch03-06-reduction-mnist.py|[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-06-reduction-mnist.py)| [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch03/___)|
 
  - ch04 - *** 대회
+|------|---|---|
+|ch04-01-introduction.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch03-01-numerical.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch04/___)|
+|ch04-02-run_xgb.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch04-02-run_xgb.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch04/___)|
+|ch04-03-run_lgb.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch04-03-run_lgb.py) |[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch04/___)|
+|ch04-04-run_nn.py    |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch04-04-run_nn.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch04/___)|
+|ch04-05-run_linear.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch04-05-run_linear.py)| [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch04/___)|
+
 
  - ch05 - *** 대회
+|ch05-01-validation.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch05/ch05-01-validation.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch05/___)|
+|ch05-02-timeseries.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch05/ch05-02-timeseries.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch05/___)|
 
  - ch06 - *** 대회
+|------|---|---|
+|ch06-01-hopt.py         |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-01-hopt.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch06/___)|
+|ch06-02-hopt_xgb.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-02-hopt_xgb.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch06/___)|
+|ch06-03-hopt_nn.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-03-hopt_nn.py) |[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch06/___)|
+|ch06-04-filter.py       |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-04-filter.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch06/___)|
+|ch06-05-embedded.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-05-embedded.py)| [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch06/___)|
+|ch06-06-wrapper.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-06-wrapper.py)| [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch06/___)|
 
  - ch07 - *** 대회
- 
+|------|---|---|
+|ch07-01-stacking.py         |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch07/ch07-01-stacking.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch07/___)|
+|ch07-02-blending.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch07/ch07-02-blending.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch07/___)|
+|ch07-03-adversarial.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch07/ch07-03-adversarial.py) |[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch07/___)|
 
 
 
