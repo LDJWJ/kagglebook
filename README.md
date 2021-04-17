@@ -14,63 +14,16 @@
  - 일부 라이브러리 버전이 맞지 않을 경우, 소스코드 일부가 실행이 되지 않을 수 있습니다. 
 
 ### 환경 준비(Window용) [Link](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env.html)
- - 01 아나콘다 설치 - [PDF](https://ldjwj.github.io/kagglebook/pdf_html/01_anaconda_install.pdf) [HTML](https://ldjwj.github.io/kagglebook/pdf_html/1_1_anaconda_install_202103.html)
-   - 최신버전 다운로드 및 파일명
-     - https://www.anaconda.com/products/individual
-     - 파일명 : Anaconda3-2020.11-Windows-x86_64.exe, 버전 확인 : conda 버전 4.8.2, python 3.7.6
-     - (명령어) python --version, conda --version
-   - 이전버전 사용시 아래 URL에서 다운로드 가능
-     - 다운로드 URL : https://repo.anaconda.com/archive/
-       - 파일명 : Anaconda3-2020.02-Windows-x86_64. 버전확인 : conda 버전 4.8.2, python 3.7.6
-     - (명령어) python --version, conda --version
- 
- - 02 가상 환경 설치(가상환경을 사용하지 않을 시, 2번은 건너뛰어도 됨.)
-   - anaconda prompt 실행
-   - 가상환경 설치 및 활성화 
-     - (명령어) conda create  --name  tf2x python=3.8.5
-     - (명령어) conda activate tf2x   # 가상 환경 활성화
-   - tensorflow, keras 및 기본 라이브러리 설치
-     - (명령어) pip  install  tensorflow
-     - (명령어) pip install keras seaborn pandas jupyter matplotlib scikit-learn
-     - (명령어) pip install xgboost
-     - (명령어) pip install lightgbm
-     - 
-   - (알아두기1) 추후 버전 변경으로 인한 일부 코드가 돌아가지 않을 때, 라이브러리 버전이 달라 발생할 경우 아래의 명령으로 버전을 지정하여 설치가 가능합니다.(pip 사용)
-     - (설치된것 삭제)  pip uninstall xgboost
-     - (버전지정 설치) pip install xgboost==1.3.3
- 
-    - (알아두기2) 가상환경 설치 후, 가상환경 설치 후, 주피터 노트북을 실행할 때, 에러가 발생하는 경우가 있음. 이때 아래의 명령으로 일부 이슈 해결
-     - 아나콘다 Prompt-관리자 권한실행 후,  
-       - pip install --upgrade pywin32==225
-       - python C:\Users\[PC사용자이름지정]\anaconda3\Scripts\pywin32_postinstall.py -install
-     - 아나콘다 Prompt 닫고, 다시 가상환경에서 아나콘다 실행
-       - (명령어) conda activate tf2x   # 가상 환경 활성화
-       - (명령어) jupyter notebook      # 주피터 노트북 실행
- 
- - 03 Pycharm 설치 및 환경 설정
-   - URL : https://www.jetbrains.com/pycharm/download/#section=windows
- - 04 github 소스 코드 다운로드
-   - https://github.com/LDJWJ/kagglebook 로 이동
-   - CODE 버튼 선택 - Download Zip 선택 후, 소스 코드 다운로드
-   - 내가 원하는 위치로 zip 파일을 이동 후, 압축을 파일을 풀어준다.
- - 05 다운로드 된 소스코드를 pycharm에서 폴더를 선택 후, 불러오기
-   - 메뉴 [File]-[Open...]선택 후, 소스코드 폴더를 선택 후, OK선택
-   - 각각의 상황에 따라 폴더를 열어준다. 여기서는 Attach로 여러 폴더를 함께 사용.
-   - 파일을 하나 선택해서 진행해 본다.
+### 환경준비(MAC용)
+ - (추가 예정)
+### 환경준비(Linux용)
+ - (추가 예정)
 
  - [설치 영상 추가 예정] [아나콘다 설치](Link1) [가상환경설치](Link2) [Pycharm 설치 및 소스코드 불러오기](Link3)
 
-### 환경준비(MAC용)
- - 추가 예정
 
-
-### 환경준비(Linux용)
- - 추가 예정
-
-
-### 소스 코드 실행 이슈
+### 일부 유저에 소스 코드 실행 이슈가 있음.
  - bhtsne 모듈 설치가 안되는 이슈(2021.03.13) - 버전 불일치로 판단됨.
-
 
 ## 소스 코드 보기
  - [캐글의 노트북 환경에서 시작하기] [유튜브-추가계획]() [네이버tv-추가계획]() 
