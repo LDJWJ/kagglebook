@@ -45,14 +45,12 @@ def evaluate(features):
 # ---------------------------------
 # Greedy Forward Selection
 # ----------------------------------
-
 best_score = 9999.0
 selected = set([])
 
 print('start greedy forward selection')
 
 while True:
-
     if len(selected) == len(train_x.columns):
         # 모든 특징이 선정되어 종료
         break

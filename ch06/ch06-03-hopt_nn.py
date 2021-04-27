@@ -1,8 +1,13 @@
 # ---------------------------------
 # 데이터 등의 사전 준비
+# 2021/04/27 시간 확인을 위한 time 관련 내용 추가
 # ----------------------------------
 import numpy as np
 import pandas as pd
+import time
+
+time_now = time.time()   # 2021/04/27
+
 
 # train_x는 학습 데이터, train_y는 목적 변수, test_x는 테스트 데이터
 # pandas의 DataFrame, Series로 유지합니다.(numpy의 array로 유지하기도 합니다)
@@ -147,7 +152,7 @@ class MLP:
 
 # -----------------------------------
 # 매개변수 튜닝의 실행
-
+# -----------------------------------
 from hyperopt import fmin, tpe, STATUS_OK, Trials
 from sklearn.metrics import log_loss
 
@@ -178,3 +183,7 @@ fmin(score, param_space, algo=tpe.suggest, trials=trials, max_evals=max_evals)
 history = sorted(history, key=lambda tpl: tpl[1])
 best = history[0]
 print(f'best params:{best[0]}, score:{best[1]:.4f}')
+
+# 2021/04/27 - 전체 프로그램 실행 시간 확인용.
+time_all = time.time() - time_now
+print("time : ", time_all)

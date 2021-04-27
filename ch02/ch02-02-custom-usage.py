@@ -56,7 +56,8 @@ watchlist = [(dtrain, 'train'), (dvalid, 'eval')]
 # 모델 학습 실행
 bst = xgb.train(params, dtrain, num_round, watchlist, obj=logregobj, feval=evalerror)
 
-# 목적함수에 binary:logistic을 지정했을 때와 달리 확률로 변환하기 전 값으로 예측값이 출력되므로 변환이 필요
+# 목적함수에 binary:logistic을 지정했을 때와 달리 확률로 변환하기 전 값으로
+# 예측값이 출력되므로 변환이 필요
 pred_val = bst.predict(dvalid)
 pred = 1.0 / (1.0 + np.exp(-pred_val))
 logloss = log_loss(va_y, pred)

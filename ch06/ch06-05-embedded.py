@@ -1,8 +1,5 @@
 import numpy as np
 import pandas as pd
-import time
-
-time_now = time.time()
 
 # ---------------------------------
 # 랜덤포레스트 특징의 중요도
@@ -49,6 +46,4 @@ fscore = sorted([(k, v) for k, v in fscore.items()], key=lambda tpl: tpl[1], rev
 print('xgboost importance')
 print(fscore[:5])
 
-# # 시간 확인을 위한 추가-02/28 추후 삭제 필요
-# time_all = time.time() - time_now
-# print("time : ", time_all)
+

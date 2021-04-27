@@ -27,6 +27,7 @@ param_space = {
     'subsample': hp.quniform('subsample', 0.6, 0.95, 0.05),
     'colsample_bytree': hp.quniform('subsample', 0.6, 0.95, 0.05),
     'gamma': hp.loguniform('gamma', np.log(1e-8), np.log(1.0)),
+
     # 여유가 있으면 alpha, lambda도 조정
     # 'alpha' : hp.loguniform('alpha', np.log(1e-8), np.log(1.0)),
     # 'lambda' : hp.loguniform('lambda', np.log(1e-6), np.log(10.0)),

@@ -168,7 +168,7 @@ train_x = um.transform(train_x)
 test_x = um.transform(test_x)
 
 # -----------------------------------
-# クラスタリング
+# 클러스터링
 # -----------------------------------
 # 표준화된 데이터를 사용
 train_x, test_x = load_standarized_data()
@@ -185,6 +185,6 @@ kmeans.fit(train_x)
 train_clusters = kmeans.predict(train_x)
 test_clusters = kmeans.predict(test_x)
 
-# 각 클러스터 중심까지의 거리를 출력
+# 각 클러스터 중심까지의 거리를 저장
 train_distances = kmeans.transform(train_x)
 test_distances = kmeans.transform(test_x)

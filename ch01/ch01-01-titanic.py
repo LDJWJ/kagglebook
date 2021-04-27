@@ -20,15 +20,15 @@ test_x = test.copy()
 # -----------------------------------
 from sklearn.preprocessing import LabelEncoder
 
-# 변수 PassengerId를 제거
+# 특징 PassengerId를 제거
 train_x = train_x.drop(['PassengerId'], axis=1)
 test_x = test_x.drop(['PassengerId'], axis=1)
 
-# 변수 [Name, Ticket, Cabin]을 제거
+# 특징 [Name, Ticket, Cabin]을 제거
 train_x = train_x.drop(['Name', 'Ticket', 'Cabin'], axis=1)
 test_x = test_x.drop(['Name', 'Ticket', 'Cabin'], axis=1)
 
-# 범주형 변수에 label encoding 을 적용하여 수치로 변환
+# 범주형 특징에 label encoding 을 적용하여 수치로 변환
 for c in ['Sex', 'Embarked']:
     # 학습 데이터를 기반으로 어떻게 변환할지 최적화
     le = LabelEncoder()
@@ -165,11 +165,11 @@ from sklearn.preprocessing import OneHotEncoder
 train_x2 = train.drop(['Survived'], axis=1)
 test_x2 = test.copy()
 
-# 변수 PassengerId를 제거
+# 특징 PassengerId를 제거
 train_x2 = train_x2.drop(['PassengerId'], axis=1)
 test_x2 = test_x2.drop(['PassengerId'], axis=1)
 
-# 변수 [Name, Ticket, Cabin]을 제거
+# 특징 [Name, Ticket, Cabin]을 제거
 train_x2 = train_x2.drop(['Name', 'Ticket', 'Cabin'], axis=1)
 test_x2 = test_x2.drop(['Name', 'Ticket', 'Cabin'], axis=1)
 
@@ -187,11 +187,11 @@ for i, c in enumerate(cat_cols):
 ohe_train_x2 = pd.DataFrame(ohe.transform(train_x2[cat_cols].fillna('NA')), columns=ohe_columns)
 ohe_test_x2 = pd.DataFrame(ohe.transform(test_x2[cat_cols].fillna('NA')), columns=ohe_columns)
 
-# 원핫 인코딩이 수행 후, 원래 변수를 제거
+# 원핫 인코딩이 수행 후, 원래 특징를 제거
 train_x2 = train_x2.drop(cat_cols, axis=1)
 test_x2 = test_x2.drop(cat_cols, axis=1)
 
-# 원핫 인코딩을 수행된 변수를 결합
+# 원핫 인코딩을 수행된 특징를 결합
 train_x2 = pd.concat([train_x2, ohe_train_x2], axis=1)
 test_x2 = pd.concat([test_x2, ohe_test_x2], axis=1)
 
@@ -201,7 +201,7 @@ for col in num_cols:
     train_x2[col].fillna(train_x2[col].mean(), inplace=True)
     test_x2[col].fillna(train_x2[col].mean(), inplace=True)
 
-# 변수Fare를 로그 변환을 수행
+# 특징Fare를 로그 변환을 수행
 train_x2['Fare'] = np.log1p(train_x2['Fare'])
 test_x2['Fare'] = np.log1p(test_x2['Fare'])
 

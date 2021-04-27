@@ -56,7 +56,6 @@ def predict_cv(model, train_x, train_y, test_x):
 
     # 테스트 데이터에 대한 예측값의 평균 획득
     preds_test = np.mean(preds_test, axis=0)
-
     return pred_train, preds_test
 
 

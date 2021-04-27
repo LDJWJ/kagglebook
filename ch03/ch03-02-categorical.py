@@ -135,6 +135,7 @@ for c in cat_cols:
     # 학습 데이터 전체에서 각 범주별 타깃 평균을 계산
     data_tmp = pd.DataFrame({c: train_x[c], 'target': train_y})
     target_mean = data_tmp.groupby(c)['target'].mean()
+
     # 테스트 데이터의 카테고리 변경
     test_x[c] = test_x[c].map(target_mean)
 
@@ -149,7 +150,7 @@ for c in cat_cols:
         # 변환 후의 값을 날짜 배열에 저장
         tmp[idx_2] = train_x[c].iloc[idx_2].map(target_mean)
 
-    # 변환 후의 값을 날짜 배열에 저장
+    # 변환 후의 데이터로 원래의 변수를 변경
     train_x[c] = tmp
 
 # -----------------------------------

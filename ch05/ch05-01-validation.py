@@ -78,6 +78,7 @@ from sklearn.model_selection import KFold
 kf = KFold(n_splits=4, shuffle=True, random_state=71)
 tr_idx, va_idx = list(kf.split(train_x))[0]
 print(tr_idx, va_idx)
+
 tr_x, va_x = train_x.iloc[tr_idx], train_x.iloc[va_idx]
 tr_y, va_y = train_y.iloc[tr_idx], train_y.iloc[va_idx]
 

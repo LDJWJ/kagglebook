@@ -25,5 +25,3 @@ def psuedo_huber(preds, dtrain):
     grad = d / scale_sqrt          # 그레이디언트
     hess = 1 / scale / scale_sqrt  # 이차 미분값
     return grad, hess
-
-# [보강] 추후 이 함수 사용 코드 추가하기

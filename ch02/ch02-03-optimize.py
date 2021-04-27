@@ -24,7 +24,6 @@ print(init_threshold, init_score)
 def f1_opt(x):
     return -f1_score(train_y, train_pred_prob >= x)
 
-
 # scipy.optimize의 minimize 메소드에서 최적의 임곗값 구하기
 # 구한 최적의 임곗값을 바탕으로 F1을 구하면 0.756이 됨
 result = minimize(f1_opt, x0=np.array([0.5]), method='Nelder-Mead')

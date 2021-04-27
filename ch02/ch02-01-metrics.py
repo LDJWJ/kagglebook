@@ -34,6 +34,7 @@ fn = np.sum((np.array(y_true) == 1) & (np.array(y_pred) == 0))
 
 confusion_matrix1 = np.array([[tp, fp],
                               [fn, tn]])
+
 print(confusion_matrix1)
 # array([[3, 1],
 #        [2, 2]])
@@ -47,7 +48,7 @@ print(confusion_matrix2)
 
 # -----------------------------------
 # 정확도(accuracy)
-
+# -----------------------------------
 from sklearn.metrics import accuracy_score
 
 # 0, 1로 표현되는 이진 분류의 실젯값과 예측값
@@ -59,7 +60,7 @@ print(accuracy)
 
 # -----------------------------------
 # logloss
-
+# -----------------------------------
 from sklearn.metrics import log_loss
 
 # 0, 1로 나타나는 이진 분류의 실젯값과 예측 확률
@@ -163,11 +164,12 @@ c_matrix = confusion_matrix(y_true, y_pred, labels=[1, 2, 3, 4, 5])
 # quadratic weighted kappa를 계산
 kappa = quadratic_weighted_kappa(c_matrix)
 print(kappa)
-# 0.6154
+# 0.6154 (소수점 5번째자리 반올림)
 
 # scikit-learn의 메소드로도 계산 가능
 kappa = cohen_kappa_score(y_true, y_pred, weights='quadratic')
 print(kappa)
+# 0.6154 (소수점 5번째자리 반올림)
 
 # -----------------------------------
 # Recommendation(추천)

@@ -60,11 +60,11 @@ train_x, test_x = load_data()
 # -----------------------------------
 from sklearn.preprocessing import StandardScaler
 
-
 # 학습 데이터와 테스트 데이터를 각각 표준화(나쁜 예)
 scaler_train = StandardScaler()
 scaler_train.fit(train_x[num_cols])
 train_x[num_cols] = scaler_train.transform(train_x[num_cols])
+
 scaler_test = StandardScaler()
 scaler_test.fit(test_x[num_cols])
 test_x[num_cols] = scaler_test.transform(test_x[num_cols])

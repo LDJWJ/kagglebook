@@ -57,6 +57,9 @@ class Model:
 # hp.quniform에서는 하한상한을 지정한 균등분포 중 일정 간격마다의 점으로부터 추출. 인수는 하한상한간격
 # hp.loguniform에서는 하한상한을 지정한 로그을 취한 값이 균등분포를 따르는 분포로부터 추출. 인수는 하한상한의 로그를 취한 값
 
+# 만약 moduleNotFoundError 발생시 hyperopt 설치 후 진행
+# 2021/04/27 hyperopt 설치 확인 : 0.2.5
+# pip install hyperopt
 from hyperopt import hp
 
 space = {

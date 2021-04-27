@@ -57,7 +57,8 @@ params = {'objective': 'binary:logistic', 'silent': 1, 'random_state': 71,
           'eval_metric': 'logloss'}
 num_round = 500
 watchlist = [(dtrain, 'train'), (dvalid, 'eval')]
-model = xgb.train(params, dtrain, num_round, evals=watchlist,
+model = xgb.train(params, dtrain, num_round,
+                  evals=watchlist,
                   early_stopping_rounds=20)
 
 # 최적의 결정 트리의 개수로 예측
