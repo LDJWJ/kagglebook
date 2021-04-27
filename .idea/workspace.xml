@@ -39,8 +39,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.ch07-03-adversarial">
-    <configuration name="ch06-04-filter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ch06-03-hopt_nn">
+    <configuration name="ch06-03-hopt_nn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kagglebook" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,7 +52,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/ch06-04-filter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06/ch06-03-hopt_nn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ch06-03-hopt_nn" />
         <item itemvalue="Python.ch07-03-adversarial" />
         <item itemvalue="Python.ch07-02-blending" />
         <item itemvalue="Python.ch06-06-wrapper" />
         <item itemvalue="Python.ch06-05-embedded" />
-        <item itemvalue="Python.ch06-04-filter" />
       </list>
     </recent_temporary>
   </component>
