@@ -15,7 +15,7 @@
 
 ### 환경 준비(Window용) [Link](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env.html)
  - [설치 영상 추가 예정] 
-  - [아나콘다 설치, 가상환경 설치, Pycharm 설치 및 소스코드 불러오기]()
+  - [아나콘다 설치, 가상환경 설치, Pycharm 설치 및 소스코드 불러오기]
 
 ### 환경준비(MAC용)
  - (추가 예정)
