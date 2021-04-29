@@ -13,9 +13,9 @@
  - hyperopt 버전 :  0.2.5
  - 일부 라이브러리 버전이 맞지 않을 경우, 소스코드 일부가 실행이 되지 않을 수 있습니다. 
 
-### 환경 준비(Window용) [Link](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env.html)
+### 환경 준비(Window용) [자세한 설명으로 이동](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env.html)
  - [설치 영상 추가 예정] 
-  - [아나콘다 설치, 가상환경 설치, Pycharm 설치 및 소스코드 불러오기](Link3)
+  - [아나콘다 설치, 가상환경 설치, Pycharm 설치 및 소스코드 불러오기]
 
 ### 환경준비(MAC용)
  - (추가 예정)
@@ -35,34 +35,34 @@
 
 |파일명|code(.py)|code(.ipynb)|
 |------|---|---|
-|ch02-01-metrics        |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-01-metrics.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-01-metrics.html)|
-|ch02-02-custom-usage   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-02-custom-usage.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-02-custom-usage.html)|
-|ch02-03-optimize       |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-03-optimize.py) |[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-03-optimize.html)|
-|ch02-04-optimize-cv    |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-04-optimize-cv.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-04-optimize-cv.html)|
-|ch02-05-custom-function|[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-05-custom-function.py)| [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch02/ch02-05-custom-function.html)|
+|ch02-01-metrics        |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-01-metrics.py)|[CODE(노트북)] |
+|ch02-02-custom-usage   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-02-custom-usage.py)|[CODE(노트북)]|
+|ch02-03-optimize       |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-03-optimize.py) |[CODE(노트북)]|
+|ch02-04-optimize-cv    |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-04-optimize-cv.py)|[CODE(노트북)]|
+|ch02-05-custom-function|[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-05-custom-function.py)| [CODE(노트북)]|
 
  ### ch03 - *** 대회
    * 파이썬 소스 코드보기
 
 |파일명|code(.py)|code(.ipynb)|
 |------|---|---|
-|ch03-01-numerical.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-01-numerical.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch03/___)|
-|ch03-02-categorical.py    |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-02-categorical.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch03/___)|
-|ch03-03-multi_tables.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-03-multi_tables.py) |[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch03/___)|
-|ch03-04-time_series.py    |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-04-time_series.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch03/___)|
-|ch03-05-reduction.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-05-reduction.py)| [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch03/___)|
-|ch03-06-reduction-mnist.py|[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-06-reduction-mnist.py)| [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch03/___)|
+|ch03-01-numerical.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-01-numerical.py)|[CODE(노트북)]|
+|ch03-02-categorical.py    |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-02-categorical.py)|[CODE(노트북)]|
+|ch03-03-multi_tables.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-03-multi_tables.py) |[CODE(노트북)]|
+|ch03-04-time_series.py    |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-04-time_series.py)|[CODE(노트북)]|
+|ch03-05-reduction.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-05-reduction.py)| [CODE(노트북)]|
+|ch03-06-reduction-mnist.py|[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-06-reduction-mnist.py)| [CODE(노트북)]|
 
  ### ch04 - *** 대회
    * 파이썬 소스 코드보기
 
 |파일명|code(.py)|code(.ipynb)|
 |------|---|---|
-|ch04-01-introduction.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch03-01-numerical.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch04/___)|
-|ch04-02-run_xgb.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch04-02-run_xgb.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch04/___)|
-|ch04-03-run_lgb.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch04-03-run_lgb.py) |[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch04/___)|
-|ch04-04-run_nn.py    |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch04-04-run_nn.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch04/___)|
-|ch04-05-run_linear.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch04-05-run_linear.py)| [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch04/___)|
+|ch04-01-introduction.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch03-01-numerical.py)|[CODE(노트북)]|
+|ch04-02-run_xgb.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch04-02-run_xgb.py)|[CODE(노트북)]|
+|ch04-03-run_lgb.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch04-03-run_lgb.py) |[CODE(노트북)]|
+|ch04-04-run_nn.py    |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch04-04-run_nn.py)|[CODE(노트북)]|
+|ch04-05-run_linear.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch04-05-run_linear.py)| [CODE(노트북)]|
 
 
  ### ch05 - *** 대회
@@ -70,29 +70,29 @@
 
 |파일명|code(.py)|code(.ipynb)|
 |------|---|---|
-|ch05-01-validation.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch05/ch05-01-validation.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch05/___)|
-|ch05-02-timeseries.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch05/ch05-02-timeseries.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch05/___)|
+|ch05-01-validation.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch05/ch05-01-validation.py)|[CODE(노트북)]|
+|ch05-02-timeseries.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch05/ch05-02-timeseries.py)|[CODE(노트북)]|
 
  ### ch06 - *** 대회
    * 파이썬 소스 코드보기
 
 |파일명|code(.py)|code(.ipynb)|
 |------|---|---|
-|ch06-01-hopt.py         |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-01-hopt.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch06/___)|
-|ch06-02-hopt_xgb.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-02-hopt_xgb.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch06/___)|
-|ch06-03-hopt_nn.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-03-hopt_nn.py) |[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch06/___)|
-|ch06-04-filter.py       |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-04-filter.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch06/___)|
-|ch06-05-embedded.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-05-embedded.py)| [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch06/___)|
-|ch06-06-wrapper.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-06-wrapper.py)| [CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch06/___)|
+|ch06-01-hopt.py         |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-01-hopt.py)|[CODE(노트북)]|
+|ch06-02-hopt_xgb.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-02-hopt_xgb.py)|[CODE(노트북)]|
+|ch06-03-hopt_nn.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-03-hopt_nn.py) |[CODE(노트북)]|
+|ch06-04-filter.py       |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-04-filter.py)|[CODE(노트북)]|
+|ch06-05-embedded.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-05-embedded.py)| [CODE(노트북)]|
+|ch06-06-wrapper.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-06-wrapper.py)| [CODE(노트북)]|
 
  ### ch07 - *** 대회
    * 파이썬 소스 코드보기
 
 |파일명|code(.py)|code(.ipynb)|
 |------|---|---|
-|ch07-01-stacking.py         |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch07/ch07-01-stacking.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch07/___)|
-|ch07-02-blending.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch07/ch07-02-blending.py)|[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch07/___)|
-|ch07-03-adversarial.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch07/ch07-03-adversarial.py) |[CODE(노트북)](https://ldjwj.github.io/kagglebook/code_with_jupyter/ch07/___)|
+|ch07-01-stacking.py         |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch07/ch07-01-stacking.py)|[CODE(노트북)]|
+|ch07-02-blending.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch07/ch07-02-blending.py)|[CODE(노트북)]|
+|ch07-03-adversarial.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch07/ch07-03-adversarial.py) |[CODE(노트북)]|
 
 
 
