@@ -167,11 +167,4 @@
   - 여러 변수를 조합한 지수 사용 - Recruit Restaurant Visitor Forecasting 대회 20th Solution [Link](https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting/discussion/49328)
   - Avito Demand Prediction Challenge 대회 9위 솔루션 (https://www.slideshare.net/JinZhan/kaggle-avito-demand-prediction-challenge-9th-place-solution-124500050)
      - 중요한 변수인 가격에 대해 상품명, 상품 분류(카테고리), 사용자나 지역 등 다양한 관점에서 평균과의 차와 비율 확인
-     
-#### ch04
 
-#### ch05
-
-#### ch06
-
-#### ch07
