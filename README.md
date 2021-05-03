@@ -41,7 +41,7 @@
 |ch02-04-optimize-cv    |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-04-optimize-cv.py)|[CODE(노트북)]|
 |ch02-05-custom-function|[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch02/ch02-05-custom-function.py)| [CODE(노트북)]|
 
- ### ch03 - *** 대회
+ ### ch03
    * 파이썬 소스 코드보기
 
 |파일명|code(.py)|code(.ipynb)|
@@ -53,7 +53,7 @@
 |ch03-05-reduction.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-05-reduction.py)| [CODE(노트북)]|
 |ch03-06-reduction-mnist.py|[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-06-reduction-mnist.py)| [CODE(노트북)]|
 
- ### ch04 - *** 대회
+ ### ch04
    * 파이썬 소스 코드보기
 
 |파일명|code(.py)|code(.ipynb)|
@@ -65,7 +65,7 @@
 |ch04-05-run_linear.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch04-05-run_linear.py)| [CODE(노트북)]|
 
 
- ### ch05 - *** 대회
+ ### ch05
     * 파이썬 소스 코드보기
 
 |파일명|code(.py)|code(.ipynb)|
@@ -73,7 +73,7 @@
 |ch05-01-validation.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch05/ch05-01-validation.py)|[CODE(노트북)]|
 |ch05-02-timeseries.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch05/ch05-02-timeseries.py)|[CODE(노트북)]|
 
- ### ch06 - *** 대회
+ ### ch06
    * 파이썬 소스 코드보기
 
 |파일명|code(.py)|code(.ipynb)|
@@ -85,7 +85,7 @@
 |ch06-05-embedded.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-05-embedded.py)| [CODE(노트북)]|
 |ch06-06-wrapper.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-06-wrapper.py)| [CODE(노트북)]|
 
- ### ch07 - *** 대회
+ ### ch07
    * 파이썬 소스 코드보기
 
 |파일명|code(.py)|code(.ipynb)|
