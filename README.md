@@ -2,8 +2,8 @@
 
 책 제목 : 데이터가 뛰어노는 AI 놀이터, 캐글
 책 링크 : 
-https://www.hanbit.co.kr/store/books/look.php?p_code=B4998513859 (한빛 미디어)
-http://www.yes24.com/Product/Goods/101479127?OzSrank=1(yes24)
+ * https://www.hanbit.co.kr/store/books/look.php?p_code=B4998513859 (한빛 미디어)
+ * http://www.yes24.com/Product/Goods/101479127?OzSrank=1(yes24)
 
 (독자 의견) frontier1020@naver.com
  * 책과 기타 소중한 의견이 있으시면 메일을 주세요~
