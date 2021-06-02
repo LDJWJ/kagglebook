@@ -12,10 +12,10 @@
  - 파이썬 버전 :  3.8.5 (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]
  - 팬더스 버전 :  1.2.2
  - matplotlib 버전 :  3.3.4
- - 넘파이 버전 :  1.19.5
+ - 넘파이(numpy) 버전 :  1.19.5
  - scikit-learn 버전 :  0.24.1
  - tensorflow 버전 :  2.4.1
- - 케라스 버전 :  2.4.3
+ - 케라스(keras) 버전 :  2.4.3
  - xgboost 버전 :  1.3.3
  - lightgbm 버전 :  3.1.1
  - hyperopt 버전 :  0.2.5
@@ -27,9 +27,9 @@
 ### 에러 등의 업데이트 [상세 내용 확인하기](https://ldjwj.github.io/kagglebook/pdf_html/issue_list.html)
  - 01 keras 설치 후, 불러올때 에러 발생(2021/06/02 추가)
 
-### 환경 준비(Window용) [자세한 설명으로 이동](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env.html)
- - [설치 영상 추가 예정] 
-  - [아나콘다 설치, 가상환경 설치, Pycharm 설치 및 소스코드 불러오기]
+### 환경 준비(Window용) 
+ - [설치하기 설명(simple버전)-가상환경경 설치없음](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env_simple.html)
+ - [설치하기 설명-가상환경설치](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env.html)
 
 ### 환경준비(MAC용)
  - (추가 예정)
