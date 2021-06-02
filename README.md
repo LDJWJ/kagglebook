@@ -28,8 +28,8 @@
  - 01 keras 설치 후, 불러올때 에러 발생(2021/06/02 추가)
 
 ### 환경 준비(Window용) 
- - [설치하기 설명(simple버전)-가상환경경 설치없음](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env_simple.html)
- - [설치하기 설명-가상환경설치](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env.html)
+ - [설치하기 설명(simple버전)-가상 환경 설치없음](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env_simple.html)
+ - [설치하기 설명-가상 환경 설치](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env.html)
 
 ### 환경준비(MAC용)
  - (추가 예정)
