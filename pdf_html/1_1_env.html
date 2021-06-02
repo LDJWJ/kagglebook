@@ -9,10 +9,10 @@
 
 
 <style type="text/css">
-    pre { line-height: 125%; margin: 0; }
-td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
-span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
-td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+    pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
 span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
 .highlight .hll { background-color: var(--jp-cell-editor-active-background) }
 .highlight { background: var(--jp-cell-editor-background); color: var(--jp-mirror-editor-variable-color) }
@@ -14264,6 +14264,22 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="&#49444;&#52824;-&#48708;&#46356;&#50724;">&#49444;&#52824; &#48708;&#46356;&#50724;<a class="anchor-link" href="#&#49444;&#52824;-&#48708;&#46356;&#50724;">&#182;</a></h3>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ul>
+<li>01 아나콘다 설치 (<a href="">영상으로</a> )</li>
+<li>02 가상 환경 설치</li>
+<li>03 Pycharm 설치 및 환경 설정</li>
+<li>04 github 소스 코드 다운로드</li>
+</ul>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="01-&#50500;&#45208;&#53080;&#45796;-&#49444;&#52824;">01 &#50500;&#45208;&#53080;&#45796; &#49444;&#52824;<a class="anchor-link" href="#01-&#50500;&#45208;&#53080;&#45796;-&#49444;&#52824;">&#182;</a></h2>
 </div>
 </div>
@@ -14295,6 +14311,10 @@ a.anchor-link {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="02-&#44032;&#49345;-&#54872;&#44221;-&#49444;&#52824;">02 &#44032;&#49345; &#54872;&#44221; &#49444;&#52824;<a class="anchor-link" href="#02-&#44032;&#49345;-&#54872;&#44221;-&#49444;&#52824;">&#182;</a></h2><ul>
 <li>(가상환경을 사용하지 않을 시, 2번은 건너뛰어도 됨.)</li>
+<li>라이브러리 설치 시, 버전이 변경되면서 라이브러리 의존성으로 에러가 발생되는 경우가 있어, 일부 라이브러리는 버전을 지정하여 설치합니다.<ul>
+<li><a href="https://github.com/LDJWJ/kagglebook의">https://github.com/LDJWJ/kagglebook의</a> Readme를 참고해 주세요.</li>
+</ul>
+</li>
 </ul>
 
 </div>
@@ -14306,25 +14326,53 @@ a.anchor-link {
  - (명령어) conda activate tf2x   # 가상 환경 활성화
 </code></pre>
 <h3 id="tensorflow,-keras-&#48143;-&#44592;&#48376;-&#46972;&#51060;&#48652;&#47084;&#47532;-&#49444;&#52824;">tensorflow, keras &#48143; &#44592;&#48376; &#46972;&#51060;&#48652;&#47084;&#47532; &#49444;&#52824;<a class="anchor-link" href="#tensorflow,-keras-&#48143;-&#44592;&#48376;-&#46972;&#51060;&#48652;&#47084;&#47532;-&#49444;&#52824;">&#182;</a></h3>
-<pre><code> - (명령어) pip  install  tensorflow
+<pre><code> - (명령어) pip  install  tensorflow==2.4.1
  - (명령어) pip install keras seaborn pandas jupyter matplotlib scikit-learn
- - (명령어) pip install xgboost
- - (명령어) pip install lightgbm
+ - (명령어) pip install xgboost==1.3.3
+ - (명령어) pip install lightgbm==3.1.1
  - 
 </code></pre>
-<h3 id="(&#50508;&#50500;&#46160;&#44592;1)-&#52628;&#54980;-&#48260;&#51204;-&#48320;&#44221;&#51004;&#47196;-&#51064;&#54620;-&#51068;&#48512;-&#53076;&#46300;&#44032;-&#46028;&#50500;&#44032;&#51648;-&#50506;&#51012;-&#46412;,-&#46972;&#51060;&#48652;&#47084;&#47532;-&#48260;&#51204;&#51060;-&#45804;&#46972;-&#48156;&#49373;&#54624;-&#44221;&#50864;-&#50500;&#47000;&#51032;-&#47749;&#47161;&#51004;&#47196;-&#48260;&#51204;&#51012;-&#51648;&#51221;&#54616;&#50668;-&#49444;&#52824;&#44032;-&#44032;&#45733;&#54633;&#45768;&#45796;.(pip-&#49324;&#50857;)">(&#50508;&#50500;&#46160;&#44592;1) &#52628;&#54980; &#48260;&#51204; &#48320;&#44221;&#51004;&#47196; &#51064;&#54620; &#51068;&#48512; &#53076;&#46300;&#44032; &#46028;&#50500;&#44032;&#51648; &#50506;&#51012; &#46412;, &#46972;&#51060;&#48652;&#47084;&#47532; &#48260;&#51204;&#51060; &#45804;&#46972; &#48156;&#49373;&#54624; &#44221;&#50864; &#50500;&#47000;&#51032; &#47749;&#47161;&#51004;&#47196; &#48260;&#51204;&#51012; &#51648;&#51221;&#54616;&#50668; &#49444;&#52824;&#44032; &#44032;&#45733;&#54633;&#45768;&#45796;.(pip &#49324;&#50857;)<a class="anchor-link" href="#(&#50508;&#50500;&#46160;&#44592;1)-&#52628;&#54980;-&#48260;&#51204;-&#48320;&#44221;&#51004;&#47196;-&#51064;&#54620;-&#51068;&#48512;-&#53076;&#46300;&#44032;-&#46028;&#50500;&#44032;&#51648;-&#50506;&#51012;-&#46412;,-&#46972;&#51060;&#48652;&#47084;&#47532;-&#48260;&#51204;&#51060;-&#45804;&#46972;-&#48156;&#49373;&#54624;-&#44221;&#50864;-&#50500;&#47000;&#51032;-&#47749;&#47161;&#51004;&#47196;-&#48260;&#51204;&#51012;-&#51648;&#51221;&#54616;&#50668;-&#49444;&#52824;&#44032;-&#44032;&#45733;&#54633;&#45768;&#45796;.(pip-&#49324;&#50857;)">&#182;</a></h3>
+<h4 id="(&#50508;&#50500;&#46160;&#44592;1)-&#52628;&#54980;-&#48260;&#51204;-&#48320;&#44221;&#51004;&#47196;-&#51064;&#54620;-&#51068;&#48512;-&#53076;&#46300;&#44032;-&#46028;&#50500;&#44032;&#51648;-&#50506;&#51012;-&#46412;,-&#46972;&#51060;&#48652;&#47084;&#47532;-&#48260;&#51204;&#51060;-&#45804;&#46972;-&#48156;&#49373;&#54624;-&#44221;&#50864;-&#50500;&#47000;&#51032;-&#47749;&#47161;&#51004;&#47196;-&#48260;&#51204;&#51012;-&#51648;&#51221;&#54616;&#50668;-&#49444;&#52824;&#44032;-&#44032;&#45733;&#54633;&#45768;&#45796;.(pip-&#49324;&#50857;)">(&#50508;&#50500;&#46160;&#44592;1) &#52628;&#54980; &#48260;&#51204; &#48320;&#44221;&#51004;&#47196; &#51064;&#54620; &#51068;&#48512; &#53076;&#46300;&#44032; &#46028;&#50500;&#44032;&#51648; &#50506;&#51012; &#46412;, &#46972;&#51060;&#48652;&#47084;&#47532; &#48260;&#51204;&#51060; &#45804;&#46972; &#48156;&#49373;&#54624; &#44221;&#50864; &#50500;&#47000;&#51032; &#47749;&#47161;&#51004;&#47196; &#48260;&#51204;&#51012; &#51648;&#51221;&#54616;&#50668; &#49444;&#52824;&#44032; &#44032;&#45733;&#54633;&#45768;&#45796;.(pip &#49324;&#50857;)<a class="anchor-link" href="#(&#50508;&#50500;&#46160;&#44592;1)-&#52628;&#54980;-&#48260;&#51204;-&#48320;&#44221;&#51004;&#47196;-&#51064;&#54620;-&#51068;&#48512;-&#53076;&#46300;&#44032;-&#46028;&#50500;&#44032;&#51648;-&#50506;&#51012;-&#46412;,-&#46972;&#51060;&#48652;&#47084;&#47532;-&#48260;&#51204;&#51060;-&#45804;&#46972;-&#48156;&#49373;&#54624;-&#44221;&#50864;-&#50500;&#47000;&#51032;-&#47749;&#47161;&#51004;&#47196;-&#48260;&#51204;&#51012;-&#51648;&#51221;&#54616;&#50668;-&#49444;&#52824;&#44032;-&#44032;&#45733;&#54633;&#45768;&#45796;.(pip-&#49324;&#50857;)">&#182;</a></h4>
 <pre><code> - (설치된것 삭제)  pip uninstall xgboost
  - (버전지정 설치) pip install xgboost==1.3.3
 
-- (알아두기2) 가상환경 설치 후, 가상환경 설치 후, 주피터 노트북을 실행할 때, 에러가 발생하는 경우가 있음. 이때 아래의 명령으로 일부 이슈 해결
- - 아나콘다 Prompt-관리자 권한실행 후,  
+</code></pre>
+<h4 id="(&#50508;&#50500;&#46160;&#44592;2)-&#44032;&#49345;&#54872;&#44221;-&#49444;&#52824;-&#54980;,-&#44032;&#49345;&#54872;&#44221;-&#49444;&#52824;-&#54980;,-&#51452;&#54588;&#53552;-&#45432;&#53944;&#48513;&#51012;-&#49892;&#54665;&#54624;-&#46412;,-&#50640;&#47084;&#44032;-&#48156;&#49373;&#54616;&#45716;-&#44221;&#50864;&#44032;-&#51080;&#51020;.-&#51060;&#46412;-&#50500;&#47000;&#51032;-&#47749;&#47161;&#51004;&#47196;-&#51068;&#48512;-&#51060;&#49800;-&#54644;&#44208;">(&#50508;&#50500;&#46160;&#44592;2) &#44032;&#49345;&#54872;&#44221; &#49444;&#52824; &#54980;, &#44032;&#49345;&#54872;&#44221; &#49444;&#52824; &#54980;, &#51452;&#54588;&#53552; &#45432;&#53944;&#48513;&#51012; &#49892;&#54665;&#54624; &#46412;, &#50640;&#47084;&#44032; &#48156;&#49373;&#54616;&#45716; &#44221;&#50864;&#44032; &#51080;&#51020;. &#51060;&#46412; &#50500;&#47000;&#51032; &#47749;&#47161;&#51004;&#47196; &#51068;&#48512; &#51060;&#49800; &#54644;&#44208;<a class="anchor-link" href="#(&#50508;&#50500;&#46160;&#44592;2)-&#44032;&#49345;&#54872;&#44221;-&#49444;&#52824;-&#54980;,-&#44032;&#49345;&#54872;&#44221;-&#49444;&#52824;-&#54980;,-&#51452;&#54588;&#53552;-&#45432;&#53944;&#48513;&#51012;-&#49892;&#54665;&#54624;-&#46412;,-&#50640;&#47084;&#44032;-&#48156;&#49373;&#54616;&#45716;-&#44221;&#50864;&#44032;-&#51080;&#51020;.-&#51060;&#46412;-&#50500;&#47000;&#51032;-&#47749;&#47161;&#51004;&#47196;-&#51068;&#48512;-&#51060;&#49800;-&#54644;&#44208;">&#182;</a></h4>
+<pre><code> - 아나콘다 Prompt-관리자 권한실행 후,  
    - pip install --upgrade pywin32==225
    - python C:\Users\[PC사용자이름지정]\anaconda3\Scripts\pywin32_postinstall.py -install
  - 아나콘다 Prompt 닫고, 다시 가상환경에서 아나콘다 실행
    - (명령어) conda activate tf2x   # 가상 환경 활성화
-   - (명령어) jupyter notebook      # 주피터 노트북 실행</code></pre>
+   - (명령어) jupyter notebook      # 주피터 노트북 실행
+
+</code></pre>
+<h3 id="&#49444;&#52824;-&#54869;&#51064;">&#49444;&#52824; &#54869;&#51064;<a class="anchor-link" href="#&#49444;&#52824;-&#54869;&#51064;">&#182;</a></h3><ul>
+<li>주피터 노트북 실행 후,</li>
+</ul>
 
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">xgboost</span> 
+<span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
+<span class="kn">import</span> <span class="nn">lightgbm</span>
+<span class="kn">import</span> <span class="nn">keras</span><span class="o">,</span> <span class="nn">pandas</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">lightgbm</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">xgboost</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">keras</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">

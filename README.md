@@ -22,6 +22,9 @@
  - 일부 라이브러리 버전이 맞지 않을 경우, 소스코드 일부가 실행이 되지 않을 수 있습니다. 
  - 최근에 tensorflow의 버전이 2.5.x로 변경되었습니다. 일부 실행이 되지 않는다면 버전에 맞춰 재 설치를 부탁드립니다(2021/05/21)
 
+### 에러 등의 업데이트 [상세 내용 확인하기](https://ldjwj.github.io/kagglebook/pdf_html/issue_list.html)
+ - 01 keras 설치 후, 불러올때 에러 발생(2021/06/02 추가)
+
 ### 환경 준비(Window용) [자세한 설명으로 이동](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env.html)
  - [설치 영상 추가 예정] 
   - [아나콘다 설치, 가상환경 설치, Pycharm 설치 및 소스코드 불러오기]
