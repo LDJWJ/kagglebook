@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>1_1_env</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>1_1_env_simple</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14270,24 +14270,21 @@ a.anchor-link {
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
-<li>01 아나콘다 설치 (<a href="https://youtu.be/ZGGm64rxl1o">영상보기</a> )</li>
-<li>02 가상 환경 설치(<a href="https://youtu.be/ecEURCnXuBM">영상보기</a> )</li>
-<li>03 Pycharm 설치 및 시작하기(<a href="https://youtu.be/1RXlAmyvRQI">영상보기</a> )</li>
-<li>04 github 소스 코드 다운로드(<a href="">영상보기</a> )</li>
+<li>01 아나콘다 설치 및 라이브러리 설치 (<a href="https://youtu.be/ZGGm64rxl1o">영상보기</a> )</li>
+<li>02 pycharm 설치 및 github 코드 가져오기(<a href="">영상보기</a> )</li>
 </ul>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="01-&#50500;&#45208;&#53080;&#45796;-&#49444;&#52824;">01 &#50500;&#45208;&#53080;&#45796; &#49444;&#52824;<a class="anchor-link" href="#01-&#50500;&#45208;&#53080;&#45796;-&#49444;&#52824;">&#182;</a></h2>
+<h2 id="01-&#50500;&#45208;&#53080;&#45796;-&#48143;-&#46972;&#51060;&#48652;&#47084;&#47532;-&#49444;&#52824;">01 &#50500;&#45208;&#53080;&#45796; &#48143; &#46972;&#51060;&#48652;&#47084;&#47532; &#49444;&#52824;<a class="anchor-link" href="#01-&#50500;&#45208;&#53080;&#45796;-&#48143;-&#46972;&#51060;&#48652;&#47084;&#47532;-&#49444;&#52824;">&#182;</a></h2>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
-<li><a href="https://ldjwj.github.io/kagglebook/pdf_html/01_anaconda_install.pdf">PDF</a> </li>
-<li><a href="https://ldjwj.github.io/kagglebook/pdf_html/ch1_2_anaconda.html">HTML</a></li>
+<li><a href="https://ldjwj.github.io/kagglebook/pdf_html/ch1_2_anaconda_simple.html">HTML</a></li>
 </ul>
 
 </div>
@@ -14309,124 +14306,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="02-&#44032;&#49345;-&#54872;&#44221;-&#49444;&#52824;">02 &#44032;&#49345; &#54872;&#44221; &#49444;&#52824;<a class="anchor-link" href="#02-&#44032;&#49345;-&#54872;&#44221;-&#49444;&#52824;">&#182;</a></h2><ul>
-<li>(가상환경을 사용하지 않을 시, 2번은 건너뛰어도 됨.)</li>
-<li>라이브러리 설치 시, 버전이 변경되면서 라이브러리 의존성으로 에러가 발생되는 경우가 있어, 일부 라이브러리는 버전을 지정하여 설치합니다.<ul>
-<li><a href="https://github.com/LDJWJ/kagglebook의">https://github.com/LDJWJ/kagglebook의</a> Readme를 참고해 주세요.</li>
-</ul>
-</li>
-</ul>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="anaconda-prompt-&#49892;&#54665;">anaconda prompt &#49892;&#54665;<a class="anchor-link" href="#anaconda-prompt-&#49892;&#54665;">&#182;</a></h3><h3 id="&#44032;&#49345;&#54872;&#44221;-&#49444;&#52824;-&#48143;-&#54876;&#49457;&#54868;">&#44032;&#49345;&#54872;&#44221; &#49444;&#52824; &#48143; &#54876;&#49457;&#54868;<a class="anchor-link" href="#&#44032;&#49345;&#54872;&#44221;-&#49444;&#52824;-&#48143;-&#54876;&#49457;&#54868;">&#182;</a></h3>
-<pre><code> - (명령어) conda create  --name  tf2x python=3.8.5
- - (명령어) conda activate tf2x   # 가상 환경 활성화
-
-</code></pre>
-<h3 id="tensorflow,-keras-&#48143;-&#44592;&#48376;-&#46972;&#51060;&#48652;&#47084;&#47532;-&#49444;&#52824;">tensorflow, keras &#48143; &#44592;&#48376; &#46972;&#51060;&#48652;&#47084;&#47532; &#49444;&#52824;<a class="anchor-link" href="#tensorflow,-keras-&#48143;-&#44592;&#48376;-&#46972;&#51060;&#48652;&#47084;&#47532;-&#49444;&#52824;">&#182;</a></h3><ul>
-<li><p>아래 명령을 anaconda prompt에 순서대로 명령어를 실행 입력합니다.</p>
-<ul>
-<li>(명령어) pip  install  tensorflow==2.4.1</li>
-<li>(명령어) pip install keras==2.4.3 </li>
-<li>(명령어) pip install seaborn pandas jupyter matplotlib scikit-learn</li>
-<li>(명령어) pip install xgboost==1.3.3</li>
-<li><p>(명령어) pip install lightgbm==3.1.1</p>
-</li>
-<li><p>(명령어) pip install --upgrade pywin32==225</p>
-</li>
-<li>(명령어) python C:\Users[PC사용자이름지정]\anaconda3\Scripts\pywin32_postinstall.py -install</li>
-</ul>
-</li>
-<li><p>[입력 예] (base) C:\Users\toto&gt; pip  install  tensorflow==2.4.1</p>
-</li>
-<li>[PC사용자이름지정]는 자신의 컴퓨터의 User안의 이름을 지정합니다.<ul>
-<li>C:\Users[PC사용자이름지정]\anaconda3는 앞에서 아나콘다가 설치된 경로를 나타냅니다.</li>
-</ul>
-</li>
-<li>버전이 다르거나 등의 이유로 pywin32_postinstall.py 파일이 없을 수 있습니다. </li>
-</ul>
-<h4 id="(&#50508;&#50500;&#46160;&#44592;1)-&#44032;&#49345;&#54872;&#44221;-&#49444;&#52824;-&#54980;,-&#44032;&#49345;&#54872;&#44221;-&#49444;&#52824;-&#54980;,-&#51452;&#54588;&#53552;-&#45432;&#53944;&#48513;&#51012;-&#49892;&#54665;&#54624;-&#46412;,-&#50640;&#47084;&#44032;-&#48156;&#49373;&#54616;&#45716;-&#44221;&#50864;&#44032;-&#51080;&#51020;.-&#51060;&#46412;-&#50500;&#47000;&#51032;-&#47749;&#47161;&#51004;&#47196;-&#51068;&#48512;-&#51060;&#49800;-&#54644;&#44208;">(&#50508;&#50500;&#46160;&#44592;1) &#44032;&#49345;&#54872;&#44221; &#49444;&#52824; &#54980;, &#44032;&#49345;&#54872;&#44221; &#49444;&#52824; &#54980;, &#51452;&#54588;&#53552; &#45432;&#53944;&#48513;&#51012; &#49892;&#54665;&#54624; &#46412;, &#50640;&#47084;&#44032; &#48156;&#49373;&#54616;&#45716; &#44221;&#50864;&#44032; &#51080;&#51020;. &#51060;&#46412; &#50500;&#47000;&#51032; &#47749;&#47161;&#51004;&#47196; &#51068;&#48512; &#51060;&#49800; &#54644;&#44208;<a class="anchor-link" href="#(&#50508;&#50500;&#46160;&#44592;1)-&#44032;&#49345;&#54872;&#44221;-&#49444;&#52824;-&#54980;,-&#44032;&#49345;&#54872;&#44221;-&#49444;&#52824;-&#54980;,-&#51452;&#54588;&#53552;-&#45432;&#53944;&#48513;&#51012;-&#49892;&#54665;&#54624;-&#46412;,-&#50640;&#47084;&#44032;-&#48156;&#49373;&#54616;&#45716;-&#44221;&#50864;&#44032;-&#51080;&#51020;.-&#51060;&#46412;-&#50500;&#47000;&#51032;-&#47749;&#47161;&#51004;&#47196;-&#51068;&#48512;-&#51060;&#49800;-&#54644;&#44208;">&#182;</a></h4>
-<pre><code> - 아나콘다 Prompt-관리자 권한실행 후,  
- - (명령어) pip install --upgrade pywin32==225
- - (명령어) python C:\Users\[PC사용자이름지정]\anaconda3\Scripts\pywin32_postinstall.py -install
-
- - 이후에 주피터 노트북 실행할때, 
-  - 아나콘다 Prompt 닫고, 다시 가상환경에서 아나콘다 실행
-  - (명령어) conda activate tf2x   # 가상 환경 활성화
-  - (명령어) jupyter notebook      # 주피터 노트북 실행
-
-</code></pre>
-<h4 id="(&#50508;&#50500;&#46160;&#44592;2)-&#44032;&#49345;&#54872;&#44221;-&#49373;&#49457;-&#49884;-&#49892;&#49688;&#54616;&#50668;-&#44032;&#49345;&#54872;&#44221;-&#49325;&#51228;&#54624;-&#46412;(&#44845;-&#51452;&#51032;&#54644;&#49436;-&#49892;&#54665;&#50836;&#54632;)">(&#50508;&#50500;&#46160;&#44592;2) &#44032;&#49345;&#54872;&#44221; &#49373;&#49457; &#49884; &#49892;&#49688;&#54616;&#50668; &#44032;&#49345;&#54872;&#44221; &#49325;&#51228;&#54624; &#46412;(&#44845; &#51452;&#51032;&#54644;&#49436; &#49892;&#54665;&#50836;&#54632;)<a class="anchor-link" href="#(&#50508;&#50500;&#46160;&#44592;2)-&#44032;&#49345;&#54872;&#44221;-&#49373;&#49457;-&#49884;-&#49892;&#49688;&#54616;&#50668;-&#44032;&#49345;&#54872;&#44221;-&#49325;&#51228;&#54624;-&#46412;(&#44845;-&#51452;&#51032;&#54644;&#49436;-&#49892;&#54665;&#50836;&#54632;)">&#182;</a></h4><ul>
-<li>가상환경 삭제<ul>
-<li>conda env remove --name [가상환경이름]<ul>
-<li>(예) conda env remove --name tf2x</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>가상환경 리스트 확인<ul>
-<li>conda env list</li>
-</ul>
-</li>
-</ul>
-<h3 id="&#49444;&#52824;-&#54869;&#51064;">&#49444;&#52824; &#54869;&#51064;<a class="anchor-link" href="#&#49444;&#52824;-&#54869;&#51064;">&#182;</a></h3><ul>
-<li>주피터 노트북 실행 후,</li>
-</ul>
-
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">xgboost</span> 
-<span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
-<span class="kn">import</span> <span class="nn">lightgbm</span>
-<span class="kn">from</span> <span class="nn">tensorflow</span> <span class="kn">import</span> <span class="n">keras</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">lightgbm</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">xgboost</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">keras</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>2.4.1
-3.1.1
-1.3.3
-2.4.0
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="03-Pycharm-&#49444;&#52824;-&#48143;-&#54872;&#44221;-&#49444;&#51221;">03 Pycharm &#49444;&#52824; &#48143; &#54872;&#44221; &#49444;&#51221;<a class="anchor-link" href="#03-Pycharm-&#49444;&#52824;-&#48143;-&#54872;&#44221;-&#49444;&#51221;">&#182;</a></h3><ul>
+<h3 id="02-Pycharm-&#49444;&#52824;-&#48143;-&#54872;&#44221;-&#49444;&#51221;">02 Pycharm &#49444;&#52824; &#48143; &#54872;&#44221; &#49444;&#51221;<a class="anchor-link" href="#02-Pycharm-&#49444;&#52824;-&#48143;-&#54872;&#44221;-&#49444;&#51221;">&#182;</a></h3><ul>
 <li><a href="https://ldjwj.github.io/kagglebook/pdf_html/ch1_3_pycharm_install.html">자세한 설명보기</a></li>
 </ul>
 
@@ -14442,27 +14322,10 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="04-github-&#49548;&#49828;-&#53076;&#46300;-&#45796;&#50868;&#47196;&#46300;">04 github &#49548;&#49828; &#53076;&#46300; &#45796;&#50868;&#47196;&#46300;<a class="anchor-link" href="#04-github-&#49548;&#49828;-&#53076;&#46300;-&#45796;&#50868;&#47196;&#46300;">&#182;</a></h2>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ul>
+<h3 id="03-Pycharm&#50640;&#49436;-github-&#49548;&#49828;-&#53076;&#46300;-&#48520;&#47084;&#50724;&#44592;">03 Pycharm&#50640;&#49436; github &#49548;&#49828; &#53076;&#46300; &#48520;&#47084;&#50724;&#44592;<a class="anchor-link" href="#03-Pycharm&#50640;&#49436;-github-&#49548;&#49828;-&#53076;&#46300;-&#48520;&#47084;&#50724;&#44592;">&#182;</a></h3><ul>
 <li><a href="https://github.com/LDJWJ/kagglebook">https://github.com/LDJWJ/kagglebook</a> 로 이동</li>
 <li>CODE 버튼 선택 - Download Zip 선택 후, 소스 코드 다운로드</li>
 <li>내가 원하는 위치로 zip 파일을 이동 후, 압축을 파일을 풀어준다.</li>
-</ul>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="05-&#45796;&#50868;&#47196;&#46300;-&#46108;-&#49548;&#49828;&#53076;&#46300;&#47484;-pycharm&#50640;&#49436;-&#54260;&#45908;&#47484;-&#49440;&#53469;-&#54980;,-&#48520;&#47084;&#50724;&#44592;">05 &#45796;&#50868;&#47196;&#46300; &#46108; &#49548;&#49828;&#53076;&#46300;&#47484; pycharm&#50640;&#49436; &#54260;&#45908;&#47484; &#49440;&#53469; &#54980;, &#48520;&#47084;&#50724;&#44592;<a class="anchor-link" href="#05-&#45796;&#50868;&#47196;&#46300;-&#46108;-&#49548;&#49828;&#53076;&#46300;&#47484;-pycharm&#50640;&#49436;-&#54260;&#45908;&#47484;-&#49440;&#53469;-&#54980;,-&#48520;&#47084;&#50724;&#44592;">&#182;</a></h2>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ul>
 <li>메뉴 [File]-[Open...]선택 후, 소스코드 폴더를 선택 후, OK선택</li>
 <li>각각의 상황에 따라 폴더를 열어준다. 여기서는 Attach로 여러 폴더를 함께 사용.</li>
 <li>파일을 하나 선택해서 진행해 본다.   </li>
