@@ -3,7 +3,7 @@
 책 제목 : 데이터가 뛰어노는 AI 놀이터, 캐글
 
 <figure>
-    <img src="https://github.com/LDJWJ/kagglebook/blob/main/bookcover.png" alt="kaggle" width=200 height=200>
+    <img src="https://github.com/LDJWJ/kagglebook/blob/main/bookcover.png" alt="kaggle" width=400 height=400>
 </figure>
 
 책 링크 : 
