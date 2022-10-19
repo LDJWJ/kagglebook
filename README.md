@@ -1,6 +1,9 @@
 # kagglebook
 
 책 제목 : 데이터가 뛰어노는 AI 놀이터, 캐글
+
+![kaggle](https://i.esdrop.com/d/ZklKfna5T3.jpg)
+
 책 링크 : 
  * https://www.hanbit.co.kr/store/books/look.php?p_code=B4998513859 (한빛 미디어)
  * http://www.yes24.com/Product/Goods/101479127?OzSrank=1 (yes24)
