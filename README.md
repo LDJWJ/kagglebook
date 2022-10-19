@@ -14,6 +14,22 @@
 (독자 의견) frontier1020@naver.com
  * 책과 기타 소중한 의견이 있으시면 메일을 주세요~
 
+
+### 환경 준비(Window용) 
+
+| 개발환경 | 내용 | 비고 |
+|---|---|---|
+|Window| [설치하기](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env_simple.html) |가상환경 설치없음|
+|Window| [가상환경고 함께 설치하기](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env.html) |가상환경과 함께 설치|
+
+* 가상환경은 아나콘다 환경에서 여러 Python버전과 개발 환경을 가질 수 있도록 만든 환경을 말합니다.
+
+### 환경준비(MAC용)
+ - (추가 예정)
+### 환경준비(Linux용)
+ - (추가 예정)
+
+
 ### 이 책에서의 라이브러리 버전 정보(실행 확인 2021.03)
 
 | 확인 날짜 | 파이썬 버전내용 | 라이브러리 버전 |
@@ -26,14 +42,7 @@
 ### 에러 등의 업데이트 [상세 내용 확인하기](https://ldjwj.github.io/kagglebook/pdf_html/issue_list.html)
  - 01 keras 설치 후, 불러올때 에러 발생(2021/06/02 추가)
 
-### 환경 준비(Window용) 
- - [설치하기 설명(simple버전)-가상 환경 설치없음](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env_simple.html)
- - [설치하기 설명-가상 환경 설치](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env.html)
 
-### 환경준비(MAC용)
- - (추가 예정)
-### 환경준비(Linux용)
- - (추가 예정)
 
 ### 일부 유저에 소스 코드 실행 이슈가 있음.
  - bhtsne 모듈 설치가 안되는 이슈(2021.03.13) - 버전 불일치로 판단됨.
