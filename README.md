@@ -18,19 +18,7 @@
 
 | 확인 날짜 | 파이썬 버전내용 | 라이브러리 버전 |
 |------|---|---|
-|2021/05/21|파이썬 버전 :  3.8.5 <br> (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]  | Pandas Version - 1.2.2  <br> 
-                                                                     matplotlib 버전 :  3.3.4 <br> 넘파이(numpy) 버전 :  1.19.5|
-
- - Pandas Version - 1.2.2
- - matplotlib 버전 :  3.3.4
- - 넘파이(numpy) 버전 :  1.19.5
- - scikit-learn 버전 :  0.24.1
- - tensorflow 버전 :  2.4.1
- - 케라스(keras) 버전 :  2.4.3
- - xgboost 버전 :  1.3.3
- - lightgbm 버전 :  3.1.1
- - hyperopt 버전 :  0.2.5
- - umap-learn 버전 :  0.5.1  # umap
+|2021/05/21|파이썬 버전 :  3.8.5 <br> (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]  | Pandas Version - 1.2.2  <br> matplotlib 버전 :  3.3.4 <br> 넘파이(numpy) 버전 :  1.19.5 <br> scikit-learn 버전 :  0.24.1 <br> tensorflow 버전 :  2.4.1 <br> 케라스(keras) 버전 :  2.4.3  <br> xgboost 버전 :  1.3.3 <br> lightgbm 버전 :  3.1.1 <br> hyperopt 버전 :  0.2.5 <br> umap-learn 버전 :  0.5.1  # umap |
 
  - 일부 라이브러리 버전이 맞지 않을 경우, 소스코드 일부가 실행이 되지 않을 수 있습니다. 
  - 최근에 tensorflow의 버전이 2.5.x로 변경되었습니다. 일부 실행이 되지 않는다면 버전에 맞춰 재 설치를 부탁드립니다(2021/05/21)
