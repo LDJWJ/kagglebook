@@ -18,7 +18,8 @@
 
 | 확인 날짜 | 파이썬 버전내용 | 라이브러리 버전 |
 |------|---|---|
-|2021/05/21|파이썬 버전 :  3.8.5 (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]  | Pandas Version - 1.2.2  <br> matplotlib 버전 :  3.3.4|
+|2021/05/21|파이썬 버전 :  3.8.5 <br> (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]  | Pandas Version - 1.2.2  <br> 
+                                                                     matplotlib 버전 :  3.3.4 <br> 넘파이(numpy) 버전 :  1.19.5|
 
  - Pandas Version - 1.2.2
  - matplotlib 버전 :  3.3.4
