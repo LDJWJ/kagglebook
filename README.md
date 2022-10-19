@@ -2,7 +2,9 @@
 
 책 제목 : 데이터가 뛰어노는 AI 놀이터, 캐글
 
-![kaggle](https://github.com/LDJWJ/kagglebook/blob/main/bookcover.png)
+<figure>
+    <img src="https://github.com/LDJWJ/kagglebook/blob/main/bookcover.png" alt="kaggle" width=200 height=200>
+</figure>
 
 책 링크 : 
  * https://www.hanbit.co.kr/store/books/look.php?p_code=B4998513859 (한빛 미디어)
