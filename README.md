@@ -191,6 +191,7 @@
 
 ### 이미지 관련 대회
   * PetFinder.my Adoption Prediction [이동](https://www.kaggle.com/competitions/petfinder-adoption-prediction)
-    * 평가지표 : RMSE, 기간 : 2019.03.21 ~ 2019.03.28
+    * 기간 : 2019.03.21 ~ 2019.03.28
+    * 평가지표 : RMSE
     * 내용 : PetFinder.my 는 2008년부터 말레이시아 최고의 동물 복지 플랫폼으로 150,000마리 이상의 동물에 대한 데이터베이스를 보유. 애완동물의 입양 가능성을 예측하는 알고리즘을 개발.
     * 애완동물 목록을 기반으로 애완동물의 입양하는 속도를 예측.
