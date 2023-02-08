@@ -19,7 +19,7 @@
 
 | 개발환경 | 내용 | 비고 |
 |---|---|---|
-|Window| [설치하기](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env_simple.html) |가상환경 설치없음|
+|Window| [설치하기](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env_simple_2302.html) |가상환경 설치없음. 23.02 |
 |Window| [아나콘다 가상환경으로 설치하기](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env.html) |가상환경과 함께 설치|
 
 * 가상환경은 아나콘다 환경에서 여러 Python버전과 개발 환경을 가질 수 있도록 만든 환경을 말합니다.
