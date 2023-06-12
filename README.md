@@ -49,7 +49,7 @@ pip install xgboost
 ```
   
 
-### 에러 등의 업데이트 [상세 내용 확인하기](https://ldjwj.github.io/kagglebook/error_issue/issue_list.md)
+### 에러 등의 업데이트 [상세 내용 확인하기](./error_issue/issue_list.md)
  - 01 keras 설치 후, 불러올때 에러 발생(2021/06/02 추가)
  - 01 tensorflow 설치 시, 에러 메시지 발생(2023/06/12 추가)
 
