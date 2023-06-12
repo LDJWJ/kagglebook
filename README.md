@@ -19,8 +19,9 @@
 
 | 개발환경 | 내용 | 비고 |
 |---|---|---|
-|Window| [설치하기](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env_simple_2302.html) |가상환경 설치없음. 23.02 내용 추가  |
-|Window| [아나콘다 가상환경으로 설치하기](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env.html) |가상환경과 함께 설치|
+| Window | [설치하기](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env_simple_2302.html) | 기본 설치 <br> 가상환경 설치없음. 23.02 내용 추가  |
+| MAC | --  | -- |
+
 
 * 가상환경은 아나콘다 환경에서 여러 Python버전과 개발 환경을 가질 수 있도록 만든 환경을 말합니다.
 
@@ -34,13 +35,23 @@
 
 | 확인 날짜 | 파이썬 버전내용 | 라이브러리 버전 |
 |------|---|---|
-| 2021/03 |파이썬 버전 :  3.8.5 <br> (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]  | Pandas Version - 1.2.2  <br> matplotlib 버전 :  3.3.4 <br> 넘파이(numpy) 버전 :  1.19.5 <br> scikit-learn 버전 :  0.24.1 <br> tensorflow 버전 :  2.4.1 <br> 케라스(keras) 버전 :  2.4.3  <br> xgboost 버전 :  1.3.3 <br> lightgbm 버전 :  3.1.1 <br> hyperopt 버전 :  0.2.5 <br> umap-learn 버전 :  0.5.1  # umap |
+| 2021/03 | 파이썬 버전 :  3.8.5 <br> (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]  | Pandas Version - 1.2.2  <br> matplotlib 버전 :  3.3.4 <br> 넘파이(numpy) 버전 :  1.19.5 <br> scikit-learn 버전 :  0.24.1 <br> tensorflow 버전 :  2.4.1 <br> 케라스(keras) 버전 :  2.4.3  <br> xgboost 버전 :  1.3.3 <br> lightgbm 버전 :  3.1.1 <br> hyperopt 버전 :  0.2.5 <br> umap-learn 버전 :  0.5.1  |
+| 2023/06 | 파이썬 버전 :  -- <br>  | Pandas Version - --  <br> matplotlib 버전 :  -- <br> 넘파이(numpy) 버전 :  -- <br> scikit-learn 버전 :  -- <br> tensorflow 버전 :  -- <br> 케라스(keras) 버전 :  --  <br> xgboost 버전 :  -- <br> lightgbm 버전 :  -- <br> hyperopt 버전 :  -- <br> umap-learn 버전 :  -- # umap |
 
  - 일부 라이브러리 버전이 맞지 않을 경우, 소스코드 일부가 실행이 되지 않을 수 있습니다. 
- - 최근에 tensorflow의 버전이 2.5.x로 변경되었습니다. 일부 실행이 되지 않는다면 버전에 맞춰 재 설치를 부탁드립니다(2021/05/21)
+ - 2023/06 확인 시, anaconda 22년 10월 버전으로 설치.
+ - 2023/06 tensorflow, lightgbm, xgboost은 Anaconda Prompt를 실행 후, 커맨드 환경에서 아래 명령으로 설치 진행.
 
-### 에러 등의 업데이트 [상세 내용 확인하기](https://ldjwj.github.io/kagglebook/pdf_html/issue_list.html)
+```
+pip install tensorflow
+pip install lightgbm
+pip install xgboost
+```
+  
+
+### 에러 등의 업데이트 [상세 내용 확인하기](https://ldjwj.github.io/kagglebook/error_issue/readme.md)
  - 01 keras 설치 후, 불러올때 에러 발생(2021/06/02 추가)
+ - 01 tensorflow 설치 시, 에러 메시지 발생(2023/06/12 추가)
 
 
 
