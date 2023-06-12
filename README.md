@@ -40,7 +40,7 @@
 
  - 일부 라이브러리 버전이 맞지 않을 경우, 소스코드 일부가 실행이 되지 않을 수 있습니다. 
  - 2023/06 확인 시, anaconda 22년 10월 버전으로 설치.
- - 2023/06 tensorflow, lightgbm, xgboost은 Anaconda Prompt를 실행 후, 커맨드 환경에서 아래 명령으로 설치 진행.
+ - 2023/06 실행 확인을 위해 tensorflow, lightgbm, xgboost은 Anaconda Prompt를 실행 후, 커맨드 환경에서 아래 명령으로 설치 진행.
 
 ```
 pip install tensorflow
@@ -49,7 +49,7 @@ pip install xgboost
 ```
   
 
-### 에러 등의 업데이트 [상세 내용 확인하기](https://ldjwj.github.io/kagglebook/error_issue/readme.md)
+### 에러 등의 업데이트 [상세 내용 확인하기](https://ldjwj.github.io/kagglebook/error_issue/issue_list.md)
  - 01 keras 설치 후, 불러올때 에러 발생(2021/06/02 추가)
  - 01 tensorflow 설치 시, 에러 메시지 발생(2023/06/12 추가)
 
