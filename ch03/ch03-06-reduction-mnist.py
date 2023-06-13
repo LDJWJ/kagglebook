@@ -5,9 +5,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# MNISTデータの可視化
+# MNIST 데이터 셋
 
-# keras.datasetsを用いてMNISTデータをダウンロードする
+# keras.datasets을 이용하여 데이터 셋 다운로드
 from keras.datasets import mnist
 (train_x, train_y), (test_x, test_y) = mnist.load_data()
 

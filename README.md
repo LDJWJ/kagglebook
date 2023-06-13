@@ -75,23 +75,23 @@ pip install xgboost
 
 |파일명|code(.py)|code(.ipynb)|
 |------|---|---|
-|ch03-01-numerical.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-01-numerical.py)|[CODE(노트북)]|
-|ch03-02-categorical.py    |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-02-categorical.py)|[CODE(노트북)]|
-|ch03-03-multi_tables.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-03-multi_tables.py) |[CODE(노트북)]|
-|ch03-04-time_series.py    |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-04-time_series.py)|[CODE(노트북)]|
-|ch03-05-reduction.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-05-reduction.py)| [CODE(노트북)]|
-|ch03-06-reduction-mnist.py|[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch03/ch03-06-reduction-mnist.py)| [CODE(노트북)]|
+|ch03-01-numerical.py      |[CODE(.py)](./ch03/ch03-01-numerical.py)|[CODE](./ch03/ch03_01_numerical.ipynb) |
+|ch03-02-categorical.py    |[CODE(.py)](./ch03/ch03-02-categorical.py)|[CODE](./ch03/ch03_02_categorical.ipynb)|
+|ch03-03-multi_tables.py   |[CODE(.py)](./ch03/ch03-03-multi_tables.py) |[CODE](./ch03/ch03_03_multi_tables.ipynb)|
+|ch03-04-time_series.py    |[CODE(.py)](./ch03/ch03-04-time_series.py)|[CODE](./ch03/ch03_04_time_series.ipynb)|
+|ch03-05-reduction.py      |[CODE(.py)](./ch03/ch03-05-reduction.py)| [CODE](./ch03/ch03_05_reduction.ipynb)|
+|ch03-06-reduction-mnist.py|[CODE(.py)](./ch03/ch03-06-reduction-mnist.py)| [CODE](./ch03/ch03_06_reduction_minst.ipynb)|
 
  ### ch04
    * 파이썬 소스 코드보기
 
 |파일명|code(.py)|code(.ipynb)|
 |------|---|---|
-|ch04-01-introduction.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch03-01-numerical.py)|[CODE(노트북)]|
-|ch04-02-run_xgb.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch04-02-run_xgb.py)|[CODE(노트북)]|
-|ch04-03-run_lgb.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch04-03-run_lgb.py) |[CODE(노트북)]|
-|ch04-04-run_nn.py    |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch04-04-run_nn.py)|[CODE(노트북)]|
-|ch04-05-run_linear.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch04/ch04-05-run_linear.py)| [CODE(노트북)]|
+|ch04-01-introduction.py      |[CODE(.py)](./ch04/ch03-01-numerical.py)|[CODE(노트북)]|
+|ch04-02-run_xgb.py   |[CODE(.py)](./ch04/ch04-02-run_xgb.py)|[CODE(노트북)]|
+|ch04-03-run_lgb.py   |[CODE(.py)](./ch04/ch04-03-run_lgb.py) |[CODE(노트북)]|
+|ch04-04-run_nn.py    |[CODE(.py)](./ch04/ch04-04-run_nn.py)|[CODE(노트북)]|
+|ch04-05-run_linear.py      |[CODE(.py)](./ch04/ch04-05-run_linear.py)| [CODE(노트북)]|
 
 
  ### ch05

@@ -23,7 +23,7 @@ def load_data():
     train_x, test_x = train_x_saved.copy(), test_x_saved.copy()
     return train_x, test_x
 
-# 변환할 수치 변수를 목록에 저장
+# 변환할 범주형 변수를 목록에 저장
 cat_cols = ['sex', 'product', 'medical_info_b2', 'medical_info_b3']
 
 # -----------------------------------
