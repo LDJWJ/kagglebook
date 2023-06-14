@@ -20,15 +20,10 @@
 | 개발환경 | 내용 | 비고 |
 |---|---|---|
 | Window | [설치하기](https://ldjwj.github.io/kagglebook/pdf_html/1_1_env_simple_2302.html) | 기본 설치 <br> 가상환경 설치없음. 23.02 내용 추가  |
-| MAC | --  | -- |
+| -- | --  | -- |
 
 
 * 가상환경은 아나콘다 환경에서 여러 Python버전과 개발 환경을 가질 수 있도록 만든 환경을 말합니다.
-
-### 환경준비(MAC용)
- - (추가 예정)
-### 환경준비(Linux용)
- - (추가 예정)
 
 
 ### 이 책에서의 라이브러리 버전 정보(실행 확인 2021.03)
@@ -36,7 +31,7 @@
 | 확인 날짜 | 파이썬 버전내용 | 라이브러리 버전 |
 |------|---|---|
 | 2021/03 | 파이썬 버전 :  3.8.5 <br> (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]  | Pandas Version - 1.2.2  <br> matplotlib 버전 :  3.3.4 <br> 넘파이(numpy) 버전 :  1.19.5 <br> scikit-learn 버전 :  0.24.1 <br> tensorflow 버전 :  2.4.1 <br> 케라스(keras) 버전 :  2.4.3  <br> xgboost 버전 :  1.3.3 <br> lightgbm 버전 :  3.1.1 <br> hyperopt 버전 :  0.2.5 <br> umap-learn 버전 :  0.5.1  |
-| 2023/06 | 파이썬 버전 :  3.9.13 <br>  | Pandas Version - 1.4.4  <br> matplotlib 버전 :  3.5.2 <br> 넘파이(numpy) 버전 :  1.23.5 <br> scikit-learn 버전 :  1.0.2 <br> tensorflow 버전 :  2.12.0 <br> 케라스(keras) 버전 :  2.12.0  <br> xgboost 버전 :  1.7.5 <br> lightgbm 버전 :  3.3.5 <br> hyperopt 버전 :  -- <br> umap-learn 버전 :  -- # umap |
+| 2023/06 | 파이썬 버전 :  3.9.13 <br>  | Pandas Version - 1.4.4  <br> matplotlib 버전 :  3.5.2 <br> 넘파이(numpy) 버전 :  1.23.5 <br> scikit-learn 버전 :  1.0.2 <br> tensorflow 버전 :  2.12.0 <br> 케라스(keras) 버전 :  2.12.0  <br> xgboost 버전 :  1.7.5 <br> lightgbm 버전 :  3.3.5 <br> hyperopt 버전 :  -- <br> umap-learn 버전 :   |
 
  - 일부 라이브러리 버전이 맞지 않을 경우, 소스코드 일부가 실행이 되지 않을 수 있습니다. 
  - 2023/06 확인 시, anaconda 22년 10월 버전으로 설치.
@@ -73,7 +68,7 @@ pip install xgboost
  ### ch03
    * 파이썬 소스 코드보기
 
-|파일명|code(.py)|code(.ipynb)|
+|파일명|code(.py)|code(.ipynb) <br> 2023/06 내용 추가|
 |------|---|---|
 |ch03-01-numerical.py      |[CODE(.py)](./ch03/ch03-01-numerical.py)|[CODE](./ch03/ch03_01_numerical.ipynb) |
 |ch03-02-categorical.py    |[CODE(.py)](./ch03/ch03-02-categorical.py)|[CODE](./ch03/ch03_02_categorical.ipynb)|
@@ -85,7 +80,7 @@ pip install xgboost
  ### ch04
    * 파이썬 소스 코드보기
 
-|파일명|code(.py)|code(.ipynb)|
+|파일명|code(.py)|code(.ipynb) <br> 2023/06 내용 추가|
 |------|---|---|
 |ch04-01-introduction.py      |[CODE(.py)](./ch04/ch03-01-numerical.py)|[CODE(노트북)]|
 |ch04-02-run_xgb.py   |[CODE(.py)](./ch04/ch04-02-run_xgb.py)|[CODE(노트북)]|
@@ -95,33 +90,33 @@ pip install xgboost
 
 
  ### ch05
-    * 파이썬 소스 코드보기
+   * 파이썬 소스 코드보기
 
-|파일명|code(.py)|code(.ipynb)|
+|파일명|code(.py)|code(.ipynb) <br> 2023/06 내용 추가|
 |------|---|---|
-|ch05-01-validation.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch05/ch05-01-validation.py)|[CODE(노트북)]|
-|ch05-02-timeseries.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch05/ch05-02-timeseries.py)|[CODE(노트북)]|
+|ch05-01-validation.py      |[CODE(.py)](./ch05/ch05-01-validation.py)|[CODE(노트북)]|
+|ch05-02-timeseries.py   |[CODE(.py)](./ch05/ch05-02-timeseries.py)|[CODE(노트북)]|
 
  ### ch06
    * 파이썬 소스 코드보기
 
 |파일명|code(.py)|code(.ipynb)|
 |------|---|---|
-|ch06-01-hopt.py         |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-01-hopt.py)|[CODE(노트북)]|
-|ch06-02-hopt_xgb.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-02-hopt_xgb.py)|[CODE(노트북)]|
-|ch06-03-hopt_nn.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-03-hopt_nn.py) |[CODE(노트북)]|
-|ch06-04-filter.py       |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-04-filter.py)|[CODE(노트북)]|
-|ch06-05-embedded.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-05-embedded.py)| [CODE(노트북)]|
-|ch06-06-wrapper.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-06-wrapper.py)| [CODE(노트북)]|
+|ch06-01-hopt.py         |[CODE(.py)](./ch06/ch06-01-hopt.py)|[CODE(노트북)]|
+|ch06-02-hopt_xgb.py     |[CODE(.py)](./ch06/ch06-02-hopt_xgb.py)|[CODE(노트북)]|
+|ch06-03-hopt_nn.py      |[CODE(.py)](./ch06/ch06-03-hopt_nn.py) |[CODE(노트북)]|
+|ch06-04-filter.py       |[CODE(.py)](./ch06/ch06-04-filter.py)|[CODE(노트북)]|
+|ch06-05-embedded.py     |[CODE(.py)](./ch06/ch06-05-embedded.py)| [CODE(노트북)]|
+|ch06-06-wrapper.py      |[CODE(.py)](./ch06/ch06-06-wrapper.py)| [CODE(노트북)]|
 
  ### ch07
    * 파이썬 소스 코드보기
 
-|파일명|code(.py)|code(.ipynb)|
+|파일명|code(.py)|code(.ipynb) <br> 2023/06 내용 추가|
 |------|---|---|
-|ch07-01-stacking.py         |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch07/ch07-01-stacking.py)|[CODE(노트북)]|
-|ch07-02-blending.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch07/ch07-02-blending.py)|[CODE(노트북)]|
-|ch07-03-adversarial.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch07/ch07-03-adversarial.py) |[CODE(노트북)]|
+|ch07-01-stacking.py         |[CODE(.py)](./ch07/ch07-01-stacking.py)|[CODE(노트북)]|
+|ch07-02-blending.py     |[CODE(.py)](./ch07/ch07-02-blending.py)|[CODE(노트북)]|
+|ch07-03-adversarial.py     |[CODE(.py)](./ch07/ch07-03-adversarial.py) |[CODE(노트북)]|
 
 
 
@@ -203,3 +198,6 @@ pip install xgboost
     * 평가지표 : RMSE
     * 내용 : PetFinder.my 는 2008년부터 말레이시아 최고의 동물 복지 플랫폼으로 150,000마리 이상의 동물에 대한 데이터베이스를 보유. 애완동물의 입양 가능성을 예측하는 알고리즘을 개발.
     * 애완동물 목록을 기반으로 애완동물의 입양하는 속도를 예측.
+
+2023.06 ~ 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLDJWJ%2Fkagglebook&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=welcome&edge_flat=false)](https://hits.seeyoufarm.com)
