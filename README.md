@@ -90,7 +90,7 @@ pip install xgboost
 
 
  ### ch05
-    * 파이썬 소스 코드보기
+   * 파이썬 소스 코드보기
 
 |파일명|code(.py)|code(.ipynb)|
 |------|---|---|
