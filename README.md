@@ -94,8 +94,8 @@ pip install xgboost
 
 |파일명|code(.py)|code(.ipynb) <br> 2023/06 내용 추가|
 |------|---|---|
-|ch05-01-validation.py      |[CODE(.py)](./ch05/ch05-01-validation.py)|[CODE(노트북)]|
-|ch05-02-timeseries.py   |[CODE(.py)](./ch05/ch05-02-timeseries.py)|[CODE(노트북)]|
+|ch05-01-validation.py      |[CODE(.py)](./ch05/ch05-01-validation.py)|[CODE(노트북)](./ch05/ch05-01-validation.ipynb)|
+|ch05-02-timeseries.py   |[CODE(.py)](./ch05/ch05-02-timeseries.py)|[CODE(노트북)](./ch05/ch05-02-timeseries.ipynb)|
 
  ### ch06
    * 파이썬 소스 코드보기
