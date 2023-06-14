@@ -31,7 +31,7 @@
 | 확인 날짜 | 파이썬 버전내용 | 라이브러리 버전 |
 |------|---|---|
 | 2021/03 | 파이썬 버전 :  3.8.5 <br> (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]  | Pandas Version - 1.2.2  <br> matplotlib 버전 :  3.3.4 <br> 넘파이(numpy) 버전 :  1.19.5 <br> scikit-learn 버전 :  0.24.1 <br> tensorflow 버전 :  2.4.1 <br> 케라스(keras) 버전 :  2.4.3  <br> xgboost 버전 :  1.3.3 <br> lightgbm 버전 :  3.1.1 <br> hyperopt 버전 :  0.2.5 <br> umap-learn 버전 :  0.5.1  |
-| 2023/06 | 파이썬 버전 :  3.9.13 <br>  | Pandas Version - 1.4.4  <br> matplotlib 버전 :  3.5.2 <br> 넘파이(numpy) 버전 :  1.23.5 <br> scikit-learn 버전 :  1.0.2 <br> tensorflow 버전 :  2.12.0 <br> 케라스(keras) 버전 :  2.12.0  <br> xgboost 버전 :  1.7.5 <br> lightgbm 버전 :  3.3.5 <br> hyperopt 버전 :  -- <br> umap-learn 버전 :  -- # umap |
+| 2023/06 | 파이썬 버전 :  3.9.13 <br>  | Pandas Version - 1.4.4  <br> matplotlib 버전 :  3.5.2 <br> 넘파이(numpy) 버전 :  1.23.5 <br> scikit-learn 버전 :  1.0.2 <br> tensorflow 버전 :  2.12.0 <br> 케라스(keras) 버전 :  2.12.0  <br> xgboost 버전 :  1.7.5 <br> lightgbm 버전 :  3.3.5 <br> hyperopt 버전 :  -- <br> umap-learn 버전 :   |
 
  - 일부 라이브러리 버전이 맞지 않을 경우, 소스코드 일부가 실행이 되지 않을 수 있습니다. 
  - 2023/06 확인 시, anaconda 22년 10월 버전으로 설치.
