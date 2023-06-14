@@ -94,29 +94,29 @@ pip install xgboost
 
 |파일명|code(.py)|code(.ipynb) <br> 2023/06 내용 추가|
 |------|---|---|
-|ch05-01-validation.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch05/ch05-01-validation.py)|[CODE(노트북)]|
-|ch05-02-timeseries.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch05/ch05-02-timeseries.py)|[CODE(노트북)]|
+|ch05-01-validation.py      |[CODE(.py)](./ch05/ch05-01-validation.py)|[CODE(노트북)]|
+|ch05-02-timeseries.py   |[CODE(.py)](./ch05/ch05-02-timeseries.py)|[CODE(노트북)]|
 
  ### ch06
    * 파이썬 소스 코드보기
 
 |파일명|code(.py)|code(.ipynb)|
 |------|---|---|
-|ch06-01-hopt.py         |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-01-hopt.py)|[CODE(노트북)]|
-|ch06-02-hopt_xgb.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-02-hopt_xgb.py)|[CODE(노트북)]|
-|ch06-03-hopt_nn.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-03-hopt_nn.py) |[CODE(노트북)]|
-|ch06-04-filter.py       |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-04-filter.py)|[CODE(노트북)]|
-|ch06-05-embedded.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-05-embedded.py)| [CODE(노트북)]|
-|ch06-06-wrapper.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch06/ch06-06-wrapper.py)| [CODE(노트북)]|
+|ch06-01-hopt.py         |[CODE(.py)](./ch06/ch06-01-hopt.py)|[CODE(노트북)]|
+|ch06-02-hopt_xgb.py     |[CODE(.py)](./ch06/ch06-02-hopt_xgb.py)|[CODE(노트북)]|
+|ch06-03-hopt_nn.py      |[CODE(.py)](./ch06/ch06-03-hopt_nn.py) |[CODE(노트북)]|
+|ch06-04-filter.py       |[CODE(.py)](./ch06/ch06-04-filter.py)|[CODE(노트북)]|
+|ch06-05-embedded.py     |[CODE(.py)](./ch06/ch06-05-embedded.py)| [CODE(노트북)]|
+|ch06-06-wrapper.py      |[CODE(.py)](./ch06/ch06-06-wrapper.py)| [CODE(노트북)]|
 
  ### ch07
    * 파이썬 소스 코드보기
 
 |파일명|code(.py)|code(.ipynb) <br> 2023/06 내용 추가|
 |------|---|---|
-|ch07-01-stacking.py         |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch07/ch07-01-stacking.py)|[CODE(노트북)]|
-|ch07-02-blending.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch07/ch07-02-blending.py)|[CODE(노트북)]|
-|ch07-03-adversarial.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch07/ch07-03-adversarial.py) |[CODE(노트북)]|
+|ch07-01-stacking.py         |[CODE(.py)](./ch07/ch07-01-stacking.py)|[CODE(노트북)]|
+|ch07-02-blending.py     |[CODE(.py)](./ch07/ch07-02-blending.py)|[CODE(노트북)]|
+|ch07-03-adversarial.py     |[CODE(.py)](./ch07/ch07-03-adversarial.py) |[CODE(노트북)]|
 
 
 
