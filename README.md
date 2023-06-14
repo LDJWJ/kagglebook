@@ -68,7 +68,7 @@ pip install xgboost
  ### ch03
    * 파이썬 소스 코드보기
 
-|파일명|code(.py)|code(.ipynb)|
+|파일명|code(.py)|code(.ipynb) <br> 2023/06 내용 추가|
 |------|---|---|
 |ch03-01-numerical.py      |[CODE(.py)](./ch03/ch03-01-numerical.py)|[CODE](./ch03/ch03_01_numerical.ipynb) |
 |ch03-02-categorical.py    |[CODE(.py)](./ch03/ch03-02-categorical.py)|[CODE](./ch03/ch03_02_categorical.ipynb)|
@@ -80,7 +80,7 @@ pip install xgboost
  ### ch04
    * 파이썬 소스 코드보기
 
-|파일명|code(.py)|code(.ipynb)|
+|파일명|code(.py)|code(.ipynb) <br> 2023/06 내용 추가|
 |------|---|---|
 |ch04-01-introduction.py      |[CODE(.py)](./ch04/ch03-01-numerical.py)|[CODE(노트북)]|
 |ch04-02-run_xgb.py   |[CODE(.py)](./ch04/ch04-02-run_xgb.py)|[CODE(노트북)]|
@@ -92,7 +92,7 @@ pip install xgboost
  ### ch05
    * 파이썬 소스 코드보기
 
-|파일명|code(.py)|code(.ipynb)|
+|파일명|code(.py)|code(.ipynb) <br> 2023/06 내용 추가|
 |------|---|---|
 |ch05-01-validation.py      |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch05/ch05-01-validation.py)|[CODE(노트북)]|
 |ch05-02-timeseries.py   |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch05/ch05-02-timeseries.py)|[CODE(노트북)]|
@@ -112,7 +112,7 @@ pip install xgboost
  ### ch07
    * 파이썬 소스 코드보기
 
-|파일명|code(.py)|code(.ipynb)|
+|파일명|code(.py)|code(.ipynb) <br> 2023/06 내용 추가|
 |------|---|---|
 |ch07-01-stacking.py         |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch07/ch07-01-stacking.py)|[CODE(노트북)]|
 |ch07-02-blending.py     |[CODE(.py)](https://github.com/LDJWJ/kagglebook/blob/main/ch07/ch07-02-blending.py)|[CODE(노트북)]|
