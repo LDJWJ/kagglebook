@@ -203,3 +203,5 @@ pip install xgboost
     * 평가지표 : RMSE
     * 내용 : PetFinder.my 는 2008년부터 말레이시아 최고의 동물 복지 플랫폼으로 150,000마리 이상의 동물에 대한 데이터베이스를 보유. 애완동물의 입양 가능성을 예측하는 알고리즘을 개발.
     * 애완동물 목록을 기반으로 애완동물의 입양하는 속도를 예측.
+
+2023.06 ~ <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLDJWJ%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
