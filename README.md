@@ -82,11 +82,11 @@ pip install xgboost
 
 |파일명|code(.py)|code(.ipynb) <br> 2023/06 내용 추가|
 |------|---|---|
-|ch04-01-introduction.py      |[CODE(.py)](./ch04/ch03-01-numerical.py)|[CODE(노트북)]|
-|ch04-02-run_xgb.py   |[CODE(.py)](./ch04/ch04-02-run_xgb.py)|[CODE(노트북)]|
-|ch04-03-run_lgb.py   |[CODE(.py)](./ch04/ch04-03-run_lgb.py) |[CODE(노트북)]|
-|ch04-04-run_nn.py    |[CODE(.py)](./ch04/ch04-04-run_nn.py)|[CODE(노트북)]|
-|ch04-05-run_linear.py      |[CODE(.py)](./ch04/ch04-05-run_linear.py)| [CODE(노트북)]|
+|ch04-01-introduction.py      |[CODE(.py)](./ch04/ch04-01-introduction.py)|[CODE(노트북)](./ch04/ch04_01_introduction.ipynb)|
+|ch04-02-run_xgb.py   |[CODE(.py)](./ch04/ch04-02-run_xgb.py)|[CODE(노트북)](./ch04/ch04_02_run_xgb.ipynb)|
+|ch04-03-run_lgb.py   |[CODE(.py)](./ch04/ch04-03-run_lgb.py) |[CODE(노트북)](./ch04/ch04_03_run_lgb.ipynb)|
+|ch04-04-run_nn.py    |[CODE(.py)](./ch04/ch04-04-run_nn.py)|[CODE(노트북)](./ch04/ch04_04_run_nn.ipynb)|
+|ch04-05-run_linear.py |[CODE(.py)](./ch04/ch04-05-run_linear.py)| [CODE(노트북)](./ch04/ch04_05_run_linear.ipynb)|
 
 
  ### ch05
