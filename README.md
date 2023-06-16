@@ -102,12 +102,12 @@ pip install xgboost
 
 |파일명|code(.py)|code(.ipynb)|
 |------|---|---|
-|ch06-01-hopt.py         |[CODE(.py)](./ch06/ch06-01-hopt.py)|[CODE(노트북)]|
-|ch06-02-hopt_xgb.py     |[CODE(.py)](./ch06/ch06-02-hopt_xgb.py)|[CODE(노트북)]|
-|ch06-03-hopt_nn.py      |[CODE(.py)](./ch06/ch06-03-hopt_nn.py) |[CODE(노트북)]|
-|ch06-04-filter.py       |[CODE(.py)](./ch06/ch06-04-filter.py)|[CODE(노트북)]|
-|ch06-05-embedded.py     |[CODE(.py)](./ch06/ch06-05-embedded.py)| [CODE(노트북)]|
-|ch06-06-wrapper.py      |[CODE(.py)](./ch06/ch06-06-wrapper.py)| [CODE(노트북)]|
+|ch06-01-hopt.py         |[CODE(.py)](./ch06/ch06-01-hopt.py)|[CODE(노트북)](./ch06/ch06_01_hopt.ipynb)|
+|ch06-02-hopt_xgb.py     |[CODE(.py)](./ch06/ch06-02-hopt_xgb.py)|[CODE(노트북)](./ch06/ch06_02_hopt_xgb.ipynb)|
+|ch06-03-hopt_nn.py      |[CODE(.py)](./ch06/ch06-03-hopt_nn.py) |[CODE(노트북)](./ch06/ch06_03_hopt_nn.ipynb)|
+|ch06-04-filter.py       |[CODE(.py)](./ch06/ch06-04-filter.py)|[CODE(노트북)](./ch06/ch06_04_filter.ipynb)|
+|ch06-05-embedded.py     |[CODE(.py)](./ch06/ch06-05-embedded.py)| [CODE(노트북)](./ch06/ch06_05_embedded.ipynb)|
+|ch06-06-wrapper.py      |[CODE(.py)](./ch06/ch06-06-wrapper.py)| [CODE(노트북)](./ch06/ch06_06_wrapper.ipynb)|
 
  ### ch07
    * 파이썬 소스 코드보기

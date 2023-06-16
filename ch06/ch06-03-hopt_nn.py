@@ -6,8 +6,7 @@ import numpy as np
 import pandas as pd
 import time
 
-time_now = time.time()   # 2021/04/27
-
+time_now = time.time()   # 2021/04/27 추가
 
 # train_x는 학습 데이터, train_y는 목적 변수, test_x는 테스트 데이터
 # pandas의 DataFrame, Series로 유지합니다.(numpy의 array로 유지하기도 합니다)
@@ -25,19 +24,29 @@ tr_x, va_x = train_x.iloc[tr_idx], train_x.iloc[va_idx]
 tr_y, va_y = train_y.iloc[tr_idx], train_y.iloc[va_idx]
 
 # tensorflow의 경고억제
+# 23/06 수정 - 최신 버전에서 tf.compat.v1.logging 삭제하고, tf.get_logger() 함수 사용. 이에 따라 변경.
+# import os
+# os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
+# import tensorflow as tf
+# tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
+
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 import tensorflow as tf
-tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
+tf.get_logger().setLevel('ERROR')
 
 # -----------------------------------
 # 신경망 매개변수의 튜닝의 예
 # -----------------------------------
 from hyperopt import hp
 from keras.callbacks import EarlyStopping
-from keras.layers.advanced_activations import ReLU, PReLU
+
+# 최신 버전에서 삭제되고 변경되어, 라이브러리 부분 일부 수정 - 23/06/16
+# from keras.layers.advanced_activations import ReLU, PReLU
+# from keras.layers.normalization import BatchNormalization
+from keras.layers import BatchNormalization # 23/06/16 수정
+from keras.layers import ReLU, PReLU  # 23/06 변경 - keras.layers.advanced_activations 최신버전에서 삭제
 from keras.layers.core import Dense, Dropout
-from keras.layers.normalization import BatchNormalization
 from keras.models import Sequential
 from keras.optimizers import SGD, Adam
 from sklearn.preprocessing import StandardScaler
