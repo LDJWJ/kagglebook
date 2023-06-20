@@ -6,14 +6,14 @@ from keras.layers import Dense, Dropout
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 
-# tensorflowの警告抑制
+# tensorflow의 경고 메시지 제어
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
 import tensorflow as tf
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
 
-# xgboostによるモデル
+# xgboost를 의한 모델
 class Model1Xgb:
 
     def __init__(self):
@@ -34,7 +34,7 @@ class Model1Xgb:
         return pred
 
 
-# ニューラルネットによるモデル
+# 뉴럴넷(신경망)으로 만든 모델
 class Model1NN:
 
     def __init__(self):
@@ -66,11 +66,14 @@ class Model1NN:
 
     def predict(self, x):
         x = self.scaler.transform(x)
-        pred = self.model.predict_proba(x).reshape(-1)
+        
+        # 23/06/20일 코드 수정(keras 2.x 이상의 버전에서 predict_proba가 생략 따라서 아래 코드 수정
+        # pred = self.model.predict_proba(x).reshape(-1)
+        pred = self.model.predict(x).reshape(-1)
         return pred
 
 
-# 線形モデル
+# 선형 모델
 class Model2Linear:
 
     def __init__(self):
