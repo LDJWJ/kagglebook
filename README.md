@@ -53,6 +53,9 @@ pip install xgboost
 ## 소스 코드 보기
  
  ### ch01 - 타이타닉 대회
+|파일명|code(.py)|code(.ipynb) <br> 2023/06 내용 추가|
+|------|---|---|
+|ch01-01-titanic.py       |[CODE(.py)](./ch01/ch01-01-titanic.py)|[CODE](./ch01/ch01_01_titanic.ipynb) |
 
  ### ch02
    * 파이썬 소스 코드보기
@@ -114,9 +117,9 @@ pip install xgboost
 
 |파일명|code(.py)|code(.ipynb) <br> 2023/06 내용 추가|
 |------|---|---|
-|ch07-01-stacking.py         |[CODE(.py)](./ch07/ch07-01-stacking.py)|[CODE(노트북)]|
-|ch07-02-blending.py     |[CODE(.py)](./ch07/ch07-02-blending.py)|[CODE(노트북)]|
-|ch07-03-adversarial.py     |[CODE(.py)](./ch07/ch07-03-adversarial.py) |[CODE(노트북)]|
+|ch07-01-stacking.py         |[CODE(.py)](./ch07/ch07-01-stacking.py)|[CODE(노트북)](./ch07/ch07_01_stacking.ipynb)|
+|ch07-02-blending.py     |[CODE(.py)](./ch07/ch07-02-blending.py)|[CODE(노트북)](./ch07/ch07_02_blending.ipynb)|
+|ch07-03-adversarial.py     |[CODE(.py)](./ch07/ch07-03-adversarial.py) |[CODE(노트북)](./ch07/ch07_03_adversarial.ipynb)|
 
 
 
