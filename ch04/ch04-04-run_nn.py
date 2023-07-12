@@ -21,11 +21,17 @@ tr_idx, va_idx = list(kf.split(train_x))[0]
 tr_x, va_x = train_x.iloc[tr_idx], train_x.iloc[va_idx]
 tr_y, va_y = train_y.iloc[tr_idx], train_y.iloc[va_idx]
 
+# tf.compat.v1.logging의 모듈이 없어짐으로 아래 내용을 수정 변경
 # tensorflow의 경고 억제
+# import os
+# os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
+# import tensorflow as tf
+# tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
+# 23/06/14 추가
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
-import tensorflow as tf
-tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
+import logging
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+logging.getLogger('tensorflow').setLevel(logging.ERROR)
 
 # -----------------------------------
 # 신경망의 구현

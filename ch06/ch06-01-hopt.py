@@ -23,7 +23,6 @@ tr_y, va_y = train_y.iloc[tr_idx], train_y.iloc[va_idx]
 # xgboost로 학습 및 예측을 수행
 import xgboost as xgb
 
-
 class Model:
 
     def __init__(self, params=None):
@@ -59,6 +58,7 @@ class Model:
 
 # 만약 moduleNotFoundError 발생시 hyperopt 설치 후 진행
 # 2021/04/27 hyperopt 설치 확인 : 0.2.5
+# 2023/06/20 hyperopt 설치 확인 : 0.2.7
 # pip install hyperopt
 from hyperopt import hp
 
